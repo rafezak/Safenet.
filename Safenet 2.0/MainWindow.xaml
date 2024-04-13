@@ -1,0 +1,48 @@
+﻿<Window x:Class="Safenet_2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Safenet_2._0"
+        mc:Ignorable="d"
+        Height="450" Width="800"
+        Title="MainWindow"  ResizeMode="NoResize">
+
+    <Grid x:Name="mainwindowgrid" Background="White">
+        <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,10,0,372" Width="118"/>
+        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="647,10,44,368" />
+        <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,8,-2,373" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer." />
+        <TabControl Margin="0,78,0,-31">
+            <TabItem Header="General">
+                <!-- Content for General Tab -->
+                <TextBlock Text="General Tips and Tricks" FontSize="18" Margin="0,20,40,20"/>
+            </TabItem>
+            <TabItem Header="Protection">
+                <!-- Content for Protection Tab -->
+                <Grid>
+
+                    <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" />
+                    <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="0,24,30,0" />
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Advanced">
+                <!-- Content for Privacy Tab -->
+                <TextBlock Text="Privacy Tips and Tricks" FontSize="18" Margin="20"/>
+            </TabItem>
+            <TabItem Header="Support">
+                <!-- Content for About Tab -->
+                <TextBlock Text="About SafeИet" FontSize="18" Margin="20"/>
+            </TabItem>
+
+            <TabItem Header="Settings">
+                <!-- Content for Help Tab -->
+                <StackPanel>
+                <TextBlock Text="Settings" FontSize="18" Margin="20"/>
+                <CheckBox x:Name="checkBoxStartup" Content="Enable Safenet on Startup" Margin="20,20,0,0"/>
+                <CheckBox x:Name="checkBoxDarkmode" Content="Darkmode" Margin="20,20,0,0" Checked="Darkmode_switch"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

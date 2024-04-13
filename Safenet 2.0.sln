@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safenet 2.0", "Safenet 2.0\Safenet 2.0.csproj", "{91A5182A-9C53-4E85-88DA-9357A9512665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A5182A-9C53-4E85-88DA-9357A9512665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A5182A-9C53-4E85-88DA-9357A9512665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A5182A-9C53-4E85-88DA-9357A9512665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A5182A-9C53-4E85-88DA-9357A9512665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4229A1A3-A623-4805-B6BE-EADF5FBF2410}
+	EndGlobalSection
+EndGlobal
