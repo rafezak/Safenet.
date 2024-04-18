@@ -10,37 +10,94 @@
 
     <Grid x:Name="mainwindowgrid" Background="White">
         <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,10,0,372" Width="118"/>
-        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="647,10,44,368" />
-        <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,8,-2,373" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer." />
+        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="624,10,67,368" />
+        <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,12,-2,369" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer."  />
         <TabControl Margin="0,78,0,-31">
             <TabItem Header="General">
-                <!-- Content for General Tab -->
-                <TextBlock Text="General Tips and Tricks" FontSize="18" Margin="0,20,40,20"/>
+                <ScrollViewer>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="29*"/>
+                            <ColumnDefinition Width="230*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="General Tips and Tricks:" FontSize="18" Margin="0,20,40,20" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="1. Always keep your computer up to date." FontSize="14" Margin="0,50,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="2. Use a strong password." FontSize="14" Margin="0,70,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="3. Use a firewall." FontSize="14" Margin="0,90,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="4. Use antivirus software." FontSize="14" Margin="0,110,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="5. Be cautious of phishing emails." FontSize="14" Margin="0,130,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="6. Be cautious of public Wi-Fi." FontSize="14" Margin="0,150,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="7. Use a VPN." FontSize="14" Margin="0,170,40,20" Grid.ColumnSpan="2"/>
+                        <TextBlock Text="8. Use a 2 Factor Authentication." FontSize="14" Margin="0,190,40,20" Grid.ColumnSpan="2"/>
+
+                        <TextBlock Text="Safenet tips and tricks:" FontSize="18" Margin="228,20,40,20" FontWeight="Bold" Grid.Column="1"/>
+                        <TextBlock Text="1. Enable Safenet on startup to instantly be safe" FontSize="11" Margin="238,50,40,20" Grid.Column="1"/>
+                        <TextBlock Text="2. Use the Secure IT button as a last resort if you feel suspicious" FontSize="11" Margin="238,70,40,20" Grid.Column="1"/>
+                        <TextBlock Text="3. Use the Port Block and App Block features to  specific block ports and apps" FontSize="11" Margin="238,90,40,20" Grid.Column="1"/>
+                        <TextBlock Text="4. Use the Darkmode feature to protect your eyes when working in a dark space" FontSize="11" Margin="238,110,40,20" Grid.Column="1"/>
+                        <TextBlock Text="5. Use the Support tab to get help and contact us whenever you have questions" FontSize="11" Margin="238,130,40,20" Grid.Column="1"/>
+                        <TextBlock Text="6. Do research on ports that are essential or generally safe to use before disabling them" FontSize="10" Margin="238,150,40,20" Grid.Column="1"/>
+
+
+
+
+
+
+
+                    </Grid>
+                </ScrollViewer>
             </TabItem>
             <TabItem Header="Protection">
-                <!-- Content for Protection Tab -->
+
                 <Grid>
 
-                    <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" />
+                    <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" />
                     <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="0,24,30,0" />
-                    
+
                 </Grid>
             </TabItem>
             <TabItem Header="Advanced">
-                <!-- Content for Privacy Tab -->
-                <TextBlock Text="Privacy Tips and Tricks" FontSize="18" Margin="20"/>
+
+
+                <StackPanel>
+                    <TextBlock FontSize="18" Margin="20"><Run Text="Advanced Features"/><Run Text=":"/></TextBlock>
+                    <Button Content="App Block" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="0,20,600,0" Width="114" />
+                </StackPanel>
             </TabItem>
             <TabItem Header="Support">
-                <!-- Content for About Tab -->
-                <TextBlock Text="About SafeИet" FontSize="18" Margin="20"/>
+
+                <ScrollViewer>
+                    <Grid>
+                        <TextBlock FontSize="18" Margin="10,10,30,30" Text="About SafeИet"/>
+                        <TextBlock Text="FAQ:" FontSize="25" Margin="20,40,20,0"/>
+                        <TextBlock Text="Q: What is SafeИet?" FontSize="14" Margin="20,77,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: SafeИet is a program that closes all ports on your computer to prevent hackers from accessing your computer." FontSize="14" Margin="20,97,20,-17"/>
+                        <TextBlock Text="Q: How do I use SafeИet?" FontSize="14" Margin="20,117,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Click the Secure IT button to secure your computer." FontSize="14" Margin="20,137,20,-17" />
+                        <TextBlock Text="Q: How do I block ports?" FontSize="14" Margin="20,157,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Click the Port Block button in the Advanced tab." FontSize="14" Margin="20,177,20,-17"/>
+                        <TextBlock Text="Q: How do I block apps?" FontSize="14" Margin="20,197,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Click the App Block button in the Advanced tab." FontSize="14" Margin="20,217,20,-17"/>
+                        <TextBlock Text="Q: How do I enable SafeИet on startup?" FontSize="14" Margin="20,237,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Check the Enable SafeИet on Startup checkbox in the Settings tab." FontSize="14" Margin="20,260,20,-17"/>
+                        <TextBlock Text="Q: Does Safenet Fully secure my computer against threats?" FontSize="14" Margin="20,282,20,-17"/>
+                        <TextBlock FontWeight="Bold" Text="A: No, Safenet does not fully secure your computer against all threats. While it helps in closing ports &#x0a; and preventing unauthorized access, it is important to have multiple layers of security measures in place, &#x0a; such as using a firewall qnd antivirus software." FontSize="14" Margin="20,305,20,-17"/>
+                        <TextBlock Text="Email: Support@safenet.nl" Margin="25,400,0,2"/>
+                        <TextBlock Text="Contact us:" FontSize="20" Margin="20,365,20,-23"/>
+                        <TextBlock Text="Phone: 0118 999 881 999 119 72  53" Margin="225,400,0,0"/>
+                        <TextBlock Margin="0,500,0,0"/>
+                    </Grid>
+                </ScrollViewer>
+
+
             </TabItem>
 
             <TabItem Header="Settings">
                 <!-- Content for Help Tab -->
                 <StackPanel>
-                <TextBlock Text="Settings" FontSize="18" Margin="20"/>
-                <CheckBox x:Name="checkBoxStartup" Content="Enable Safenet on Startup" Margin="20,20,0,0"/>
-                <CheckBox x:Name="checkBoxDarkmode" Content="Darkmode" Margin="20,20,0,0" Checked="Darkmode_switch"/>
+                    <TextBlock FontSize="18" Margin="20"><Run Text="Settings"/><Run Language="nl-nl" Text=":"/></TextBlock>
+                    <CheckBox x:Name="checkBoxStartup" Content="Enable Safenet on Startup" Margin="20,20,0,0"/>
+                    <CheckBox x:Name="checkBoxDarkmode" Content="Darkmode" Margin="20,20,0,0" Checked="Darkmode_switch"/>
                 </StackPanel>
             </TabItem>
         </TabControl>

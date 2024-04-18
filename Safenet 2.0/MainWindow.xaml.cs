@@ -25,6 +25,7 @@ namespace Safenet_2._0
         {
             
             InitializeComponent();
+            
 
             // Initialize the dataset
             portData = new System.Data.DataTable();
@@ -57,6 +58,7 @@ namespace Safenet_2._0
                 button.Click += Button_Click;
                 Buttonpanel.Children.Add(button);
                 J++;
+                
             }
         }
 
