@@ -1,4 +1,6 @@
-﻿using System.Data;
+﻿using OpenAI_API.Models;
+using OpenAI_API;
+using System.Data;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -42,6 +44,7 @@ namespace Safenet_2._0
             portData.Rows.Add(22, "SSH", "Closed", "Secure Shell protocol");
             portData.Rows.Add(21, "FTP", "Closed", "File Transfer Protocol");
             portData.Rows.Add(3389, "RDP", "Closed", "Remote Desktop Protocol");
+            portData.Rows.Add(8080, "HTTPS", "Open", "ChatGPT Port. (this must be open to \x0A use the 'ask a question' feature!)");
 
             // Set the dataset as the ItemsSource for the datagrid
             dataGrid.ItemsSource = portData.DefaultView;
@@ -54,7 +57,7 @@ namespace Safenet_2._0
                 button.Name = "button" + J;
                 button.Content = "on/off";
                 button.Height = 19;
-                button.Width = 50;
+                button.Width = 46;
                 button.Click += Button_Click;
                 Buttonpanel.Children.Add(button);
                 J++;
@@ -103,6 +106,7 @@ namespace Safenet_2._0
         }
         
         
+      
     }
 
    

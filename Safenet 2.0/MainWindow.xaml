@@ -37,9 +37,7 @@
                         <TextBlock Text="4. Use the Darkmode feature to protect your eyes when working in a dark space" FontSize="11" Margin="238,110,40,20" Grid.Column="1"/>
                         <TextBlock Text="5. Use the Support tab to get help and contact us whenever you have questions" FontSize="11" Margin="238,130,40,20" Grid.Column="1"/>
                         <TextBlock Text="6. Do research on ports that are essential or generally safe to use before disabling them" FontSize="10" Margin="238,150,40,20" Grid.Column="1"/>
-
-
-
+                        <TextBlock Text="" FontSize="10" Margin="10,224,23,10" Grid.ColumnSpan="2" x:Name="Responsetext"/>
 
 
 
@@ -51,8 +49,8 @@
 
                 <Grid>
 
-                    <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" />
-                    <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="0,24,30,0" />
+                    <DataGrid x:Name="dataGrid" Margin="0,0,349,0" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" />
+                    <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="63,24,30,0" />
 
                 </Grid>
             </TabItem>
