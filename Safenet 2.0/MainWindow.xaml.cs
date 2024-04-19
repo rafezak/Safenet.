@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Safenet_2._0.Views;
+using System.Data;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -101,8 +102,13 @@ namespace Safenet_2._0
         {
             MessageBox.Show("SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer.");
         }
-        
-        
+
+        private void EditFirewall_Click_1(object sender, RoutedEventArgs e)
+        {
+            CustomFirewallRule customFirewallRule = new CustomFirewallRule();
+            customFirewallRule.Show();
+            this.Hide();
+        }
     }
 
    

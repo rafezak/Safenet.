@@ -50,9 +50,10 @@
             <TabItem Header="Protection">
 
                 <Grid>
-
+                    
                     <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" />
                     <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="0,24,30,0" />
+                    <Button x:Name="EditFirewall_Click" Margin="718,10,10,307" Content="Edit" Click="EditFirewall_Click_1"></Button>
 
                 </Grid>
             </TabItem>
