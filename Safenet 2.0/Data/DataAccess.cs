@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Safenet_2._0.Models;
+using NetFwTypeLib;
 
 namespace Safenet_2._0.Data
 {
