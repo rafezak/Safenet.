@@ -39,6 +39,7 @@ namespace Safenet_2._0.Data
             File.WriteAllText(FilePathFW, json);
         }
 
+        //get current firewall rules
         public ObservableCollection<Port> GetAllFireWallRules()
         {
             ObservableCollection<Port> rules = new ObservableCollection<Port>();

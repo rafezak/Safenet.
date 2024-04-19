@@ -5,16 +5,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Safenet_2._0.Models;
+using Safenet_2._0.Data;
+using System.DirectoryServices;
 
 namespace Safenet_2._0.ViewModel
 {
     public class MainViewModel
     {
+        private DataAccess _dal;
         public ObservableCollection<Port> Rules { get; set; }
 
         public MainViewModel()
         {
-            //LoadRules();
+            _dal = new DataAccess();
+            _dal.LoadRules();
 
         }
         public void AddRule(string name, string description, string localPorts, int protocol)
@@ -32,6 +36,19 @@ namespace Safenet_2._0.ViewModel
             Rules.Add(newRule);
             SaveRules();
 
+        }
+        //seperating concerns
+        private void SaveRules()
+        {
+            _dal.SaveRules(Rules);
+        }
+
+        public void RemoveRule(Port port)
+        {
+            Rules.Remove(port);
+            SaveRules();
+
+            //DeleteFireWallRule(port);
         }
 
 
