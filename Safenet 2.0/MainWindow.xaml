@@ -49,13 +49,18 @@
             </TabItem>
             <TabItem Header="Protection">
 
-                <Grid>
-                    
-                    <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" />
-                    <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="0,24,30,0" />
+                <Grid x:Name="FirewallRuleGrid">
+                    <DataGrid x:Name="FWRulesGrid" AutoGenerateColumns="False" Margin="0,0,340,0">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                            <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>
+                            <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
                     <Button x:Name="EditFirewall_Click" Margin="718,10,10,307" Content="Edit" Click="EditFirewall_Click_1"></Button>
-
                 </Grid>
+                
             </TabItem>
             <TabItem Header="Advanced">
 

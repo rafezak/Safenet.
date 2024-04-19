@@ -1,4 +1,6 @@
-﻿using Safenet_2._0.Views;
+﻿using Safenet_2._0.Data;
+using Safenet_2._0.Views;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Text;
 using System.Windows;
@@ -18,6 +20,8 @@ namespace Safenet_2._0
     /// </summary>
     public partial class MainWindow : Window
     {
+        private DataAccess _dal;
+
         int J = 1;
         // Define the dataset for the datagrid
         private System.Data.DataTable portData;
@@ -26,9 +30,15 @@ namespace Safenet_2._0
         {
             
             InitializeComponent();
-            
 
-            // Initialize the dataset
+            _dal = new DataAccess();
+
+            ObservableCollection<Models.Port> rules = _dal.LoadRules();
+
+            FWRulesGrid.ItemsSource = rules;
+
+
+/*            // Initialize the dataset
             portData = new System.Data.DataTable();
 
             // Add columns to the dataset
@@ -45,10 +55,10 @@ namespace Safenet_2._0
             portData.Rows.Add(3389, "RDP", "Closed", "Remote Desktop Protocol");
 
             // Set the dataset as the ItemsSource for the datagrid
-            dataGrid.ItemsSource = portData.DefaultView;
+            dataGrid.ItemsSource = portData.DefaultView;*/
 
 
-            foreach (DataRow row in portData.Rows)
+/*            foreach (DataRow row in portData.Rows)
             {
 
                 Button button = new Button();
@@ -60,7 +70,7 @@ namespace Safenet_2._0
                 Buttonpanel.Children.Add(button);
                 J++;
                 
-            }
+            }*/
         }
 
         private void Darkmode_switch(object sender, RoutedEventArgs e)
@@ -77,20 +87,20 @@ namespace Safenet_2._0
             Button button = (Button)sender;
 
             // Get the corresponding row index
-            int rowIndex = Buttonpanel.Children.IndexOf(button);
+           // int rowIndex = Buttonpanel.Children.IndexOf(button);
 
             // Get the corresponding DataRow
-            DataRow row = portData.Rows[rowIndex];
+           // DataRow row = portData.Rows[rowIndex];
 
             // Toggle the status value
-            if (row["Status"].ToString() == "Open")
+   /*         if (row["Status"].ToString() == "Open")
             {
                 row["Status"] = "Closed";
             }
             else if (row["Status"].ToString() == "Closed")
             {
                 row["Status"] = "Open";
-            }
+            }*/
         }
 
         private void SecureIT_Click(object sender, RoutedEventArgs e)
