@@ -22,6 +22,7 @@ namespace Safenet_2._0.ViewModel
             _dal = new DataAccess();
             // load port rules from JSON DB
             _dal.LoadRules();
+            
 
         }
         public void AddRule(string name, string description, string localPorts, int protocol)

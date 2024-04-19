@@ -45,21 +45,33 @@ namespace Safenet_2._0.Data
         {
             ObservableCollection<Port> rules = new ObservableCollection<Port>();
 
-            // get existing firewall rules from Windows firewall
-            INetFwPolicy2 firewallPolicy = (INetFwPolicy2)Activator.CreateInstance(Type.GetTypeFromProgID("HNetCfg.FwPolicy2"));
-
-            foreach(INetFwRule rule in firewallPolicy.Rules)
+            try
             {
-                Port newRule = new Port
+                INetFwPolicy2 firewallPolicy = (INetFwPolicy2)Activator.CreateInstance(Type.GetTypeFromProgID("HNetCfg.FwPolicy2"));
+
+                foreach (INetFwRule rule in firewallPolicy.Rules)
                 {
-                    Name = rule.Name,
-                    Description = rule.Description,
-                    LocalPorts = rule.LocalPorts,
-                    Protocol = rule.Protocol,
-                };
-                rules.Add(newRule);
+                    Port newRule = new Port
+                    {
+                        Name = rule.Name,
+                        Description = rule.Description,
+                        LocalPorts = rule.LocalPorts,
+                        Protocol = rule.Protocol,
+                    };
+                    rules.Add(newRule);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to get firewall rules: " + ex.Message);
             }
             return rules;
+        }
+
+        public void SaveAllFirewallRulesToJSON()
+        {
+            ObservableCollection<Port> allRules = GetAllFireWallRules();
+            SaveRules(allRules);
         }
 
         public void CreateFirewallRule(Port port)
@@ -96,18 +108,7 @@ namespace Safenet_2._0.Data
             }
         }
 
-
         #endregion
 
-
-        #region Block App 
-        #endregion
-
-        #region Tips
-        #endregion
-
-
-        #region Ticket
-        #endregion
     }
 }
