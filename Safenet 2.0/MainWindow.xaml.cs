@@ -1,4 +1,6 @@
-﻿
+﻿using Safenet_2._0.Data;
+using Safenet_2._0.Views;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Text;
 using System.Windows;
@@ -19,8 +21,11 @@ namespace Safenet_2._0
     /// </summary>
     public partial class MainWindow : Window
     {
-        int J = 1;
-        int K = 1;
+        private DataAccess _dal;
+        public int SelectedTabIndex { get; set; }
+
+
+        //int J = 1;
         // Define the dataset for the datagrid
         private System.Data.DataTable portData;
         private System.Data.DataTable portAppdata;
@@ -29,9 +34,15 @@ namespace Safenet_2._0
         {
             
             InitializeComponent();
-            
 
-            // Initialize the dataset
+            _dal = new DataAccess();
+
+            ObservableCollection<Models.Port> rules = _dal.LoadRules();
+
+            FWRulesGrid.ItemsSource = rules;
+
+
+/*            // Initialize the dataset
             portData = new System.Data.DataTable();
             
 
@@ -50,7 +61,7 @@ namespace Safenet_2._0
             portData.Rows.Add(8080, "HTTPS", "Open", "ChatGPT Port. (this must be open to \x0A use the 'ask a question' feature!)");
 
             // Set the dataset as the ItemsSource for the datagrid
-            dataGrid.ItemsSource = portData.DefaultView;
+            dataGrid.ItemsSource = portData.DefaultView;*/
 
 
             // Initialize the dataset
@@ -119,20 +130,20 @@ namespace Safenet_2._0
             Button button = (Button)sender;
 
             // Get the corresponding row index
-            int rowIndex = Buttonpanel.Children.IndexOf(button);
+           // int rowIndex = Buttonpanel.Children.IndexOf(button);
 
             // Get the corresponding DataRow
-            DataRow row = portData.Rows[rowIndex];
+           // DataRow row = portData.Rows[rowIndex];
 
             // Toggle the status value
-            if (row["Status"].ToString() == "Open")
+   /*         if (row["Status"].ToString() == "Open")
             {
                 row["Status"] = "Closed";
             }
             else if (row["Status"].ToString() == "Closed")
             {
                 row["Status"] = "Open";
-            }
+            }*/
         }
 
         private void SecureIT_Click(object sender, RoutedEventArgs e)
@@ -177,6 +188,17 @@ namespace Safenet_2._0
            //MessageBox.Show(rowIndex.ToString());
         }
       
+        public void SelectTab(int index)
+        {
+            MainWindowTabControl.SelectedIndex = index;
+        }
+        private void EditFirewall_Click_1(object sender, RoutedEventArgs e)
+        {
+            CustomFirewallRule customFirewallRule = new CustomFirewallRule();
+            customFirewallRule.SelectedTabIndex = MainWindowTabControl.SelectedIndex;
+            customFirewallRule.Show();
+            this.Hide();
+        }
     }
 
    

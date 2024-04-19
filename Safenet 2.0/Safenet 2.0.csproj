@@ -21,4 +21,10 @@
     </COMReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\SecurityTips.json">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
 </Project>
