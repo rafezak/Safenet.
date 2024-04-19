@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Safenet_2._0.Models
 {
-    internal class Tip
+    public class Tip
     {
     }
 }

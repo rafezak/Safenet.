@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Safenet_2._0.Models
 {
-    internal class Setting
+    public class Setting
     {
+
+        public bool DarkMode { get; set; }
+        
     }
 }
