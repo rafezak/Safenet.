@@ -57,6 +57,7 @@
                 <Grid x:Name="FirewallRuleGrid">
                     <DataGrid x:Name="FWRulesGrid" AutoGenerateColumns="False" Margin="0,0,340,0">
                         <DataGrid.Columns>
+                            
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                             <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
                             <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>

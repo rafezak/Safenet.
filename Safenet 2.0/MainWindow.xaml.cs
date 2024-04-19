@@ -83,7 +83,7 @@ namespace Safenet_2._0
             toggledataGrid.ItemsSource = portAppdata.DefaultView;
 
 
-            foreach (DataRow row in portData.Rows)
+/*            foreach (DataRow row in portData.Rows)
             {
                 
                 Button button = new Button();
@@ -97,7 +97,7 @@ namespace Safenet_2._0
 
                 J++;
                 
-            }
+            }*/
 
             foreach (DataRow row in portAppdata.Rows)
             {

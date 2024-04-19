@@ -14,7 +14,7 @@ namespace Safenet_2._0.Data
 {
     public class DataAccess
     {
-        private const string FilePathFW = "C:\\Users\\Rafezak\\source\\repos\\Safenet 2.0\\Safenet 2.0\\Data\\firewall_rules.json";
+        private const string FilePathFW = "C:\\Users\\Rachel\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\firewall_rules.json";
 
         #region Firewall-Ports
 
