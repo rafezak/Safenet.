@@ -57,10 +57,23 @@
             <TabItem Header="Advanced">
 
 
-                <StackPanel>
-                    <TextBlock FontSize="18" Margin="20"><Run Text="Advanced Features"/><Run Text=":"/></TextBlock>
-                    <Button Content="App Block" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="0,20,600,0" Width="114" />
-                </StackPanel>
+                <Grid>
+                    <TextBlock FontSize="18" Margin="20">
+                    <Run Text="Advanced Features"/>
+                    <Run Text=":"/>
+                    </TextBlock>
+                    <Button Content="App Block" Padding="0,0,0,0" FontSize="18" Click="Appblock_Clicked" Margin="0,0,600,200" Width="114" Height="30" />
+                    <StackPanel Orientation="Vertical" x:Name="togglebuttonpanel" Margin="137,65,0,0" Visibility="Hidden" />
+                    <DataGrid x:Name="toggledataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" Visibility="Visible" Margin="264,42,363,139"/>
+
+
+
+
+
+
+
+                </Grid>
+
             </TabItem>
             <TabItem Header="Support">
 
