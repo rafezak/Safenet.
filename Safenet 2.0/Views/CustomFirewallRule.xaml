@@ -29,6 +29,16 @@
         <ComboBox Grid.Row="3" x:Name="ProtocolComboBox" Margin="5">
             <ComboBoxItem Content="TCP" Tag="6"/>
             <ComboBoxItem Content="UDP" Tag="17"/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
+            <ComboBoxItem Content="" Tag=""/>
         </ComboBox>
 
         <Button Grid.Row="5" Content="Add Rule" Click="AddRuleButton_Click" Margin="498,39,151,-69"/>

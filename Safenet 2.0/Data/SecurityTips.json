@@ -1,0 +1,5 @@
+﻿{
+  "Subject": "Password",
+  "Question": "Password Polcy standards",
+  "Description": "Minimum of 12 characters with Uppercase and Lowercase character that should also include special characters and numbers"
+}
