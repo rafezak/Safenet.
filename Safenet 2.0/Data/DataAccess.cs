@@ -11,6 +11,36 @@ namespace Safenet_2._0.Data
     {
 
         #region Firewall-Ports
+        public void LoadPortsFromJson()
+        {
+
+
+        }
+
+        public void SavePortRuleToJson() 
+        {
+        
+
+
+        }
+
+        public void RefreshPortList()
+        {
+
+
+        }
+
+        private void NewPortRule() 
+        {
+        
+        }
+
+        public void RemovePortRule()
+        {
+
+
+        }
+
 
 
         #endregion

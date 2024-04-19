@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Safenet_2._0.Models
 {
-    internal class BlockApp
+    public class BlockApp
     {
+
     }
 }
