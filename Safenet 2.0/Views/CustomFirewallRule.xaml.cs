@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Safenet_2._0.Views
@@ -19,9 +20,28 @@ namespace Safenet_2._0.Views
     /// </summary>
     public partial class CustomFirewallRule : Window
     {
+        public int SelectedTabIndex { get; set; }
+
         public CustomFirewallRule()
         {
             InitializeComponent();
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if(mainWindow != null )
+            {
+                mainWindow.Show();
+                mainWindow.SelectTab(SelectedTabIndex);
+            }
+            
+            this.Close(); //  close the current window 
+        }
+
+        private void AddRuleButton_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

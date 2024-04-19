@@ -21,8 +21,10 @@ namespace Safenet_2._0
     public partial class MainWindow : Window
     {
         private DataAccess _dal;
+        public int SelectedTabIndex { get; set; }
 
-        int J = 1;
+
+        //int J = 1;
         // Define the dataset for the datagrid
         private System.Data.DataTable portData;
 
@@ -112,10 +114,14 @@ namespace Safenet_2._0
         {
             MessageBox.Show("SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer.");
         }
-
+        public void SelectTab(int index)
+        {
+            MainWindowTabControl.SelectedIndex = index;
+        }
         private void EditFirewall_Click_1(object sender, RoutedEventArgs e)
         {
             CustomFirewallRule customFirewallRule = new CustomFirewallRule();
+            customFirewallRule.SelectedTabIndex = MainWindowTabControl.SelectedIndex;
             customFirewallRule.Show();
             this.Hide();
         }

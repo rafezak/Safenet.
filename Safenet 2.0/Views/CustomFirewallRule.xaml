@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="CustomFirewallRule" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Name:"/>
+        <TextBox Grid.Row="0" x:Name="NameTextBox" Margin="5"/>
+
+        <Label Grid.Row="1" Content="Description:"/>
+        <TextBox Grid.Row="1" x:Name="DescriptionTextBox" Margin="5"/>
+
+        <Label Grid.Row="2" Content="Local Ports:"/>
+        <TextBox Grid.Row="2" x:Name="LocalPortsTextBox" Margin="5"/>
+
+        <Label Grid.Row="3" Content="Protocol:"/>
+        <ComboBox Grid.Row="3" x:Name="ProtocolComboBox" Margin="5">
+            <ComboBoxItem Content="TCP" Tag="6"/>
+            <ComboBoxItem Content="UDP" Tag="17"/>
+        </ComboBox>
+
+        <Button Grid.Row="5" Content="Add Rule" Click="AddRuleButton_Click" Margin="498,39,151,-69"/>
+        <Button Grid.Row="5" Content="Cancel" Click="CancelButton_Click" Margin="195,37,482,-69"/>
+
     </Grid>
 </Window>

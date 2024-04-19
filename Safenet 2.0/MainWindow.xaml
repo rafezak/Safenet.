@@ -12,7 +12,7 @@
         <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,10,0,372" Width="118"/>
         <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="624,10,67,368" />
         <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,12,-2,369" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer."  />
-        <TabControl Margin="0,78,0,-31">
+        <TabControl Margin="0,78,0,-31"  x:Name="MainWindowTabControl">
             <TabItem Header="General">
                 <ScrollViewer>
                     <Grid>
