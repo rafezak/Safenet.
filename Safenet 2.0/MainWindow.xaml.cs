@@ -5,6 +5,7 @@ using System.Data;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -25,8 +26,11 @@ namespace Safenet_2._0
 
 
         //int J = 1;
+        int J = 1;
+        int K = 1;
         // Define the dataset for the datagrid
         private System.Data.DataTable portData;
+        private System.Data.DataTable portAppdata;
 
         public MainWindow()
         {
@@ -60,9 +64,27 @@ namespace Safenet_2._0
             dataGrid.ItemsSource = portData.DefaultView;*/
 
 
-/*            foreach (DataRow row in portData.Rows)
-            {
+            // Initialize the dataset
+            portAppdata = new System.Data.DataTable();
 
+            // Add columns to the dataset
+            portAppdata.Columns.Add("App name", typeof(string));
+            portAppdata.Columns.Add("toggleStatus", typeof(string));
+            
+
+            // Add dummy data to each header in the datatable
+           portAppdata.Rows.Add("Chrome", "Open");
+            portAppdata.Rows.Add("Edge", "Blocked");
+            portAppdata.Rows.Add("Discord", "Open");
+            portAppdata.Rows.Add("Teams", "Open");
+
+            // Set the dataset as the ItemsSource for the datagrid
+            toggledataGrid.ItemsSource = portAppdata.DefaultView;
+
+
+            foreach (DataRow row in portData.Rows)
+            {
+                
                 Button button = new Button();
                 button.Name = "button" + J;
                 button.Content = "on/off";
@@ -72,7 +94,23 @@ namespace Safenet_2._0
                 Buttonpanel.Children.Add(button);
                 J++;
                 
-            }*/
+            }
+
+            foreach (DataRow row in portAppdata.Rows)
+            {
+                
+                ToggleButton toggleButton = new ToggleButton();
+                toggleButton.Name = "toggleButton" + K;
+                toggleButton.Content = "Block/Unblock";
+                toggleButton.Height = 19;
+                toggleButton.Width = 80;
+                toggleButton.Click += BlockApp_Click;
+                togglebuttonpanel.Children.Add(toggleButton);
+                K++;
+                
+              
+
+            }
         }
 
         private void Darkmode_switch(object sender, RoutedEventArgs e)
@@ -125,6 +163,39 @@ namespace Safenet_2._0
             customFirewallRule.Show();
             this.Hide();
         }
+        
+
+        private void Appblock_Clicked(object sender, RoutedEventArgs e)
+        {
+            toggledataGrid.Visibility = Visibility.Visible;
+            togglebuttonpanel.Visibility = Visibility.Visible;
+           
+        }
+        
+        private void BlockApp_Click(object sender, RoutedEventArgs e)
+        {
+            // Get the clicked button
+            ToggleButton toggleButton = (ToggleButton)sender;
+
+            // Get the corresponding row index
+            int rowIndex = togglebuttonpanel.Children.IndexOf(toggleButton);
+
+            // Get the corresponding DataRow
+            DataRow row = portAppdata.Rows[rowIndex];
+
+            // Toggle the status value
+            if (row["toggleStatus"].ToString() == "Open")
+            {
+                row["toggleStatus"] = "Blocked";
+            }
+            else if (row["toggleStatus"].ToString() == "Blocked")
+            {
+                row["toggleStatus"] = "Open";
+            }
+
+           //MessageBox.Show(rowIndex.ToString());
+        }
+      
     }
 
    
