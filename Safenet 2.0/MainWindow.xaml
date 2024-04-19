@@ -6,14 +6,19 @@
         xmlns:local="clr-namespace:Safenet_2._0"
         mc:Ignorable="d"
         Height="450" Width="800"
+        Background="#C7C8CC"
+        
         Title="MainWindow"  ResizeMode="NoResize">
 
-    <Grid x:Name="mainwindowgrid" Background="White">
-        <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,10,0,372" Width="118"/>
-        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="624,10,67,368" />
+    <Grid x:Name="mainwindowgrid" Background="#C7C8CC">
+
+        <Rectangle Margin="0,0,0,332" Fill="#C7C8CC" />
+        <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,-330,0,0" Width="96" Background="#B4B4B8" TextWrapping="Wrap" Height="35"  />
         <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,12,-2,369" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer."  />
-        <TabControl Margin="0,78,0,-31">
-            <TabItem Header="General">
+        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="632,10,59,368"  Background="#B4B4B8"/>
+
+        <TabControl Margin="0,78,0,-31" Background="#F2EFE5">
+            <TabItem Header="General" Background="#E3E1D9" >
                 <ScrollViewer>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -45,7 +50,7 @@
                     </Grid>
                 </ScrollViewer>
             </TabItem>
-            <TabItem Header="Protection">
+            <TabItem Header="Protection" Background="#E3E1D9">
 
                 <Grid>
 
@@ -54,17 +59,19 @@
 
                 </Grid>
             </TabItem>
-            <TabItem Header="Advanced">
+            <TabItem Header="Advanced" Background="#E3E1D9">
 
 
                 <Grid>
-                    <TextBlock FontSize="18" Margin="20">
-                    <Run Text="Advanced Features"/>
-                    <Run Text=":"/>
-                    </TextBlock>
-                    <Button Content="App Block" Padding="0,0,0,0" FontSize="18" Click="Appblock_Clicked" Margin="0,0,600,200" Width="114" Height="30" />
-                    <StackPanel Orientation="Vertical" x:Name="togglebuttonpanel" Margin="137,65,0,0" Visibility="Hidden" />
-                    <DataGrid x:Name="toggledataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" Visibility="Visible" Margin="264,42,363,139"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="24*"/>
+                        <ColumnDefinition Width="199*"/>
+                        <ColumnDefinition Width="571*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock FontSize="18" Margin="20,20,20,20" Grid.ColumnSpan="3"><Run Text="Advanced Features"/><Run Text=" "/><Run Text=":"/></TextBlock>
+                    <Button Content="App Block" Padding="0,0,0,0" FontSize="18" Click="Appblock_Clicked" Margin="0,65,69,220" Width="114" Height="30" Background="#E3E1D9" Grid.Column="1" />
+                    <StackPanel Orientation="Vertical" x:Name="togglebuttonpanel" Margin="113,65,0,0" Visibility="Hidden" Grid.ColumnSpan="2" Grid.Column="1" />
+                    <DataGrid x:Name="toggledataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" Visibility="Hidden" Margin="41,42,363,139" Grid.Column="2"/>
 
 
 
@@ -75,7 +82,7 @@
                 </Grid>
 
             </TabItem>
-            <TabItem Header="Support">
+            <TabItem Header="Support" Background="#E3E1D9">
 
                 <ScrollViewer>
                     <Grid>
@@ -92,7 +99,7 @@
                         <TextBlock Text="Q: How do I enable SafeИet on startup?" FontSize="14" Margin="20,237,20,-17" FontStyle="Italic"/>
                         <TextBlock FontWeight="Bold" Text="A: Check the Enable SafeИet on Startup checkbox in the Settings tab." FontSize="14" Margin="20,260,20,-17"/>
                         <TextBlock Text="Q: Does Safenet Fully secure my computer against threats?" FontSize="14" Margin="20,282,20,-17"/>
-                        <TextBlock FontWeight="Bold" Text="A: No, Safenet does not fully secure your computer against all threats. While it helps in closing ports &#x0a; and preventing unauthorized access, it is important to have multiple layers of security measures in place, &#x0a; such as using a firewall qnd antivirus software." FontSize="14" Margin="20,305,20,-17"/>
+                        <TextBlock FontWeight="Bold" Text="A: No, Safenet does not fully secure your computer against all threats. While it helps in closing ports &#xA; and preventing unauthorized access, it is important to have multiple layers of security measures in place, &#xA; such as using a firewall qnd antivirus software." FontSize="14" Margin="20,305,20,-17"/>
                         <TextBlock Text="Email: Support@safenet.nl" Margin="25,400,0,2"/>
                         <TextBlock Text="Contact us:" FontSize="20" Margin="20,365,20,-23"/>
                         <TextBlock Text="Phone: 0118 999 881 999 119 72  53" Margin="225,400,0,0"/>
@@ -103,7 +110,7 @@
 
             </TabItem>
 
-            <TabItem Header="Settings">
+            <TabItem Header="Settings" Background="#E3E1D9">
                 <!-- Content for Help Tab -->
                 <StackPanel>
                     <TextBlock FontSize="18" Margin="20"><Run Text="Settings"/><Run Language="nl-nl" Text=":"/></TextBlock>
@@ -112,5 +119,6 @@
                 </StackPanel>
             </TabItem>
         </TabControl>
+
     </Grid>
 </Window>

@@ -1,5 +1,33 @@
 [
   {
+    "Name": "@{AppUp.IntelTechnologyMDE_20.20.8130.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
+    "Description": "@{AppUp.IntelTechnologyMDE_20.20.8130.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
+    "LocalPorts": null,
+    "Protocol": 256,
+    "LogEntries": null
+  },
+  {
+    "Name": "@{AppUp.IntelTechnologyMDE_20.20.8130.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
+    "Description": "@{AppUp.IntelTechnologyMDE_20.20.8130.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
+    "LocalPorts": null,
+    "Protocol": 256,
+    "LogEntries": null
+  },
+  {
+    "Name": "ms-resource:WebphoneSession/Resources/ProductName",
+    "Description": "ms-resource:WebphoneSession/Resources/ProductName",
+    "LocalPorts": "*",
+    "Protocol": 17,
+    "LogEntries": null
+  },
+  {
+    "Name": "ms-resource:WebphoneSession/Resources/ProductName",
+    "Description": "ms-resource:WebphoneSession/Resources/ProductName",
+    "LocalPorts": "*",
+    "Protocol": 6,
+    "LogEntries": null
+  },
+  {
     "Name": "GlideXService",
     "Description": null,
     "LocalPorts": null,
@@ -688,34 +716,6 @@
   {
     "Name": "Riot Client",
     "Description": "Riot Client",
-    "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
-  },
-  {
-    "Name": "@{AppUp.IntelTechnologyMDE_20.19.7717.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
-    "Description": "@{AppUp.IntelTechnologyMDE_20.19.7717.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
-    "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
-  },
-  {
-    "Name": "@{AppUp.IntelTechnologyMDE_20.19.7717.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
-    "Description": "@{AppUp.IntelTechnologyMDE_20.19.7717.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
-    "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
-  },
-  {
-    "Name": "ms-resource:WebphoneSession/Resources/ProductName",
-    "Description": "ms-resource:WebphoneSession/Resources/ProductName",
-    "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
-  },
-  {
-    "Name": "ms-resource:WebphoneSession/Resources/ProductName",
-    "Description": "ms-resource:WebphoneSession/Resources/ProductName",
     "LocalPorts": "*",
     "Protocol": 6,
     "LogEntries": null

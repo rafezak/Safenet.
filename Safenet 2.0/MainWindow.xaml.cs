@@ -33,6 +33,7 @@ namespace Safenet_2._0
 
             // Initialize the dataset
             portData = new System.Data.DataTable();
+            
 
             // Add columns to the dataset
             portData.Columns.Add("Port Number", typeof(int));
@@ -79,7 +80,9 @@ namespace Safenet_2._0
                 button.Height = 19;
                 button.Width = 46;
                 button.Click += Button_Click;
+                button.Background = Brushes.Beige;
                 Buttonpanel.Children.Add(button);
+
                 J++;
                 
             }
@@ -92,6 +95,7 @@ namespace Safenet_2._0
                 toggleButton.Content = "Block/Unblock";
                 toggleButton.Height = 19;
                 toggleButton.Width = 80;
+                toggleButton.Background = Brushes.Beige;
                 toggleButton.Click += BlockApp_Click;
                 togglebuttonpanel.Children.Add(toggleButton);
                 K++;
