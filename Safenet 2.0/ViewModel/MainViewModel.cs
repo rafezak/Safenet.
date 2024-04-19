@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Safenet_2._0.Models;
 using Safenet_2._0.Data;
 using System.DirectoryServices;
+using NetFwTypeLib;
+using System.Windows;
 
 namespace Safenet_2._0.ViewModel
 {
@@ -18,6 +20,7 @@ namespace Safenet_2._0.ViewModel
         public MainViewModel()
         {
             _dal = new DataAccess();
+            // load port rules from JSON DB
             _dal.LoadRules();
 
         }
@@ -36,6 +39,9 @@ namespace Safenet_2._0.ViewModel
             Rules.Add(newRule);
             SaveRules();
 
+            //Create firewall rule
+            _dal.CreateFirewallRule(newRule);
+
         }
         //seperating concerns
         private void SaveRules()
@@ -48,8 +54,9 @@ namespace Safenet_2._0.ViewModel
             Rules.Remove(port);
             SaveRules();
 
-            //DeleteFireWallRule(port);
+            _dal.DeleteFirewallRule(port);
         }
+
 
 
     }
