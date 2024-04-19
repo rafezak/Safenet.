@@ -26,15 +26,12 @@ namespace Safenet_2._0
 
 
         //int J = 1;
-        int J = 1;
-        int K = 1;
         // Define the dataset for the datagrid
         private System.Data.DataTable portData;
         private System.Data.DataTable portAppdata;
 
         public MainWindow()
         {
-            
             InitializeComponent();
 
             _dal = new DataAccess();
@@ -43,77 +40,47 @@ namespace Safenet_2._0
 
             FWRulesGrid.ItemsSource = rules;
 
-
-/*            // Initialize the dataset
             portData = new System.Data.DataTable();
-            
 
-            // Add columns to the dataset
-            portData.Columns.Add("Port Number", typeof(int));
-            portData.Columns.Add("Protocol", typeof(string));
-            portData.Columns.Add("Status", typeof(string));
-            portData.Columns.Add("Info", typeof(string));
-
-            // Add dummy data to each header in the datatable
-            portData.Rows.Add(80, "HTTP", "Open", "Default HTTP port");
-            portData.Rows.Add(443, "HTTPS", "Open", "Default HTTPS port");
-            portData.Rows.Add(22, "SSH", "Closed", "Secure Shell protocol");
-            portData.Rows.Add(21, "FTP", "Closed", "File Transfer Protocol");
-            portData.Rows.Add(3389, "RDP", "Closed", "Remote Desktop Protocol");
-
-            // Set the dataset as the ItemsSource for the datagrid
-            dataGrid.ItemsSource = portData.DefaultView;*/
-
-
-            // Initialize the dataset
+            Buttongrid.ItemsSource = null; // Clear the ItemsSource       
+            Buttongrid.Items.Clear(); // Clear the items collection
+            Buttongrid.ItemsSource = portData.DefaultView;
             portAppdata = new System.Data.DataTable();
 
-            // Add columns to the dataset
             portAppdata.Columns.Add("App name", typeof(string));
             portAppdata.Columns.Add("toggleStatus", typeof(string));
-            
 
-            // Add dummy data to each header in the datatable
-           portAppdata.Rows.Add("Chrome", "Open");
+            portAppdata.Rows.Add("Chrome", "Open");
             portAppdata.Rows.Add("Edge", "Blocked");
             portAppdata.Rows.Add("Discord", "Open");
             portAppdata.Rows.Add("Teams", "Open");
 
-            // Set the dataset as the ItemsSource for the datagrid
+           
             toggledataGrid.ItemsSource = portAppdata.DefaultView;
 
-
-/*            foreach (DataRow row in portData.Rows)
+            foreach (var row in FWRulesGrid.Items)
             {
-                
                 Button button = new Button();
-                button.Name = "button" + J;
+                button.Name = "button";
                 button.Content = "on/off";
-                button.Height = 19;
-                button.Width = 50;
+                button.Height = 18.9680    ;
+                button.Width = 40;
                 button.Click += Button_Click;
                 button.Background = Brushes.Beige;
                 Buttonpanel.Children.Add(button);
-
-                J++;
-                
-            }*/
-
+            }
+            
+           
             foreach (DataRow row in portAppdata.Rows)
             {
-                
                 ToggleButton toggleButton = new ToggleButton();
-                toggleButton.Name = "toggleButton" + K;
+                toggleButton.Name = "toggleButton";
                 toggleButton.Content = "Block/Unblock";
                 toggleButton.Height = 19;
                 toggleButton.Width = 80;
                 toggleButton.Background = Brushes.Beige;
                 toggleButton.Click += BlockApp_Click;
                 togglebuttonpanel.Children.Add(toggleButton);
-                K++;
-                
-              
-
             }
         }
 
@@ -156,17 +123,6 @@ namespace Safenet_2._0
         {
             MessageBox.Show("SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer.");
         }
-        public void SelectTab(int index)
-        {
-            MainWindowTabControl.SelectedIndex = index;
-        }
-        private void EditFirewall_Click_1(object sender, RoutedEventArgs e)
-        {
-            CustomFirewallRule customFirewallRule = new CustomFirewallRule();
-            customFirewallRule.SelectedTabIndex = MainWindowTabControl.SelectedIndex;
-            customFirewallRule.Show();
-            this.Hide();
-        }
         
 
         private void Appblock_Clicked(object sender, RoutedEventArgs e)
@@ -200,6 +156,17 @@ namespace Safenet_2._0
            //MessageBox.Show(rowIndex.ToString());
         }
       
+        public void SelectTab(int index)
+        {
+            MainWindowTabControl.SelectedIndex = index;
+        }
+        private void EditFirewall_Click_1(object sender, RoutedEventArgs e)
+        {
+            CustomFirewallRule customFirewallRule = new CustomFirewallRule();
+            customFirewallRule.SelectedTabIndex = MainWindowTabControl.SelectedIndex;
+            customFirewallRule.Show();
+            this.Hide();
+        }
     }
 
    

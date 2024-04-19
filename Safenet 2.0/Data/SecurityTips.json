@@ -3,6 +3,74 @@
     "Subject": "Password",
     "Question": "Password Polcy standards",
     "Description": "Minimum of 12 characters with Uppercase and Lowercase character that should also include special characters and numbers"
-  }
-  
+  },
+  "Text=\"General Tips and Tricks:\"",
+
+      {
+        "subject": "updates",
+        "question": "keeping your computer up to date",
+        "description": "Always keep your computer up to date."
+      },
+
+      {
+        "subject": "security",
+        "question": "firewall usage",
+        "description": "Use a firewall."
+      },
+      {
+        "subject": "antivirus",
+        "question": "use an antivirus",
+        "description": "Use antivirus software."
+      },
+      {
+        "subject": "scamming",
+        "question": "phishing emails",
+        "description": "Be cautious of phishing emails."
+      },
+      {
+        "subject": "Wi-FI",
+        "question": "Public Wi-FI",
+        "description": "Be cautious of public Wi-Fi."
+      },
+      {
+        "subject": "VPN",
+        "question": "Use a VPN",
+        "description": "Use a VPN."
+      },
+      {
+        "subject": "Authentication",
+        "question": "2 Facter Authentication",
+        "description": "Use  2 Factor Authentication."
+      },
+      {
+        "subject": "Safenet",
+        "question": "Safenet Tips and Tricks",
+        "description": " Enable Safenet on startup to instantly be safe"
+      },
+      {
+        "subject": "Safenet",
+        "question": "Safenet Tips and Tricks",
+        "description": "Use the Secure IT button as a last resort if you feel suspicious"
+      },
+      {
+        "subject": "Safenet",
+        "question": "Safenet Tips and Tricks",
+        "description": " Use the Port Block and App Block features to specific block ports and apps"
+      },
+      {
+        "subject": "Safenet",
+        "question": "Safenet Tips and Tricks",
+        "description": " Use the Darkmode feature to protect your eyes when working in a dark space"
+      },
+      {
+        "subject": "Safenet",
+        "question": "Safenet Tips and Tricks",
+        "description": " Use the Support tab to get help and contact us whenever you have questions"
+      },
+      {
+        "subject": "Safenet",
+        "question": "Safenet Tips and Tricks",
+        "description": "Do research on ports that are essential or generally safe to use before disabling them"
+      }
 ]
+
