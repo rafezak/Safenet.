@@ -17,7 +17,7 @@
         <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,12,-2,369" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer."  />
         <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="632,10,59,368"  Background="#B4B4B8"/>
 
-        <TabControl Margin="0,78,0,-31" Background="#F2EFE5">
+        <TabControl Margin="0,78,0,-31" Background="#F2EFE5" x:Name="MainWindowTabControl">
             <TabItem Header="General" Background="#E3E1D9" >
                 <ScrollViewer>
                     <Grid>
@@ -51,19 +51,27 @@
                 </ScrollViewer>
             </TabItem>
             <TabItem Header="Protection">
-
-                <Grid x:Name="FirewallRuleGrid">
+               <ScrollViewer>
+                <Grid x:Name="FirewallRuleGrid" >
                     <DataGrid x:Name="FWRulesGrid" AutoGenerateColumns="False" Margin="0,0,340,0">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                             <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
                             <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>
                             <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}"/>
+                            
                         </DataGrid.Columns>
                     </DataGrid>
-                    <Button x:Name="EditFirewall_Click" Margin="718,10,10,307" Content="Edit" Click="EditFirewall_Click_1"></Button>
+                    <Button x:Name="EditFirewall_Click" Margin="718,10,10,14000" Content="Edit" Click="EditFirewall_Click_1" Height="40" Background="Beige"> </Button>
+                    <StackPanel x:Name="Buttonpanel" Orientation="Vertical" Margin="130,-142,0,0">
+
+                        
+                        <DataGrid x:Name="Buttongrid" ItemsSource="{Binding}" Height="167" Margin="2000,0,0,0" />
+
+                    </StackPanel>
+
                 </Grid>
-                
+              </ScrollViewer>
             </TabItem>
             <TabItem Header="Advanced" Background="#E3E1D9">
 
