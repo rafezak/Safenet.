@@ -95,7 +95,7 @@ namespace Safenet_2._0.ViewModel
             Rules.Remove(port);
             SaveRules();
 
-            _dal.DeleteFirewallRule(port);
+            //_dal.DeleteFirewallRule(port);
         }
 
 
