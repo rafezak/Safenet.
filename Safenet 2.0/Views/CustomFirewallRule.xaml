@@ -16,17 +16,17 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="Name:" Margin="0,0,0,28" Grid.RowSpan="2"/>
-        <TextBox Grid.Row="0" x:Name="NameTextBox" Margin="5,5,5,5"/>
+        <Label Grid.Row="0" Content="Rule Name:" Margin="0,0,0,28" Grid.RowSpan="2"/>
+        <TextBox Grid.Row="0" x:Name="NameTextBox" Margin="153,5,5,5"/>
 
-        <Label Grid.Row="1" Content="Description:" Margin="0,0,0,28" Grid.RowSpan="2"/>
-        <TextBox Grid.Row="1" x:Name="DescriptionTextBox" Margin="5,5,5,5"/>
+        <Label Grid.Row="1" Content="Rule Description:" Margin="0,0,0,28" Grid.RowSpan="2"/>
+        <TextBox Grid.Row="1" x:Name="DescriptionTextBox" Margin="153,5,5,5"/>
 
         <Label Grid.Row="2" Content="Local Ports:" Margin="0,0,0,32" Grid.RowSpan="2"/>
-        <TextBox Grid.Row="2" x:Name="LocalPortsTextBox" Margin="5,5,5,5"/>
+        <TextBox Grid.Row="2" x:Name="LocalPortsTextBox" Margin="153,5,5,5"/>
 
         <Label Grid.Row="3" Content="Protocol:" Grid.RowSpan="3"/>
-        <ComboBox Grid.Row="3" x:Name="ProtocolComboBox" Margin="5,5,5,5">
+        <ComboBox Grid.Row="3" x:Name="ProtocolComboBox" Margin="153,5,5,5">
             <ComboBoxItem Content="HTTP - Hypertext Transfer Protocol" Tag="80"/>
             <ComboBoxItem Content="HTTPS - Hypertext Transfer Protocol Secure" Tag="port 443"/>
             <ComboBoxItem Content="SSH - Secure Shell" Tag="22"/>
@@ -41,8 +41,8 @@
             <ComboBoxItem Content="DHCP - Dynamic Host Configuration Protocol Client" Tag="68"/>
         </ComboBox>
 
-        <Button x:Name ="btnAddRule" Grid.Row="5" Content="Add Rule" Click="AddRuleButton_Click" Margin="482,278,167,-308"/>
-        <Button Grid.Row="5" Content="Cancel" Click="CancelButton_Click" Margin="179,276,498,-308" Background="Red" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name ="btnAddRule" Grid.Row="5" Content="Add Rule" Click="AddRuleButton_Click" Margin="489,215,160,-245"/>
+        <Button Grid.Row="5" Content="Cancel" Click="CancelButton_Click" Margin="186,213,491,-245" Background="Red" Foreground="White" FontWeight="Bold"/>
 
     </Grid>
 </Window>

@@ -49,7 +49,10 @@ namespace Safenet_2._0.Views
                 if (int.TryParse(selectedItem.Tag.ToString(), out int protocol))
                 {
                     // Call AddRule method of MainViewModel
-                    mainViewModel.AddRule(name, description, localPorts, protocol) ;
+                    mainViewModel.AddRule(name, description, localPorts, protocol);
+                    MessageBox.Show("Rule succesfully created. To return press the cancel button.");
+
+                    
                 }
                 else
                 {
@@ -60,6 +63,12 @@ namespace Safenet_2._0.Views
             {
                 MessageBox.Show("Please select a protocol.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+
+            NameTextBox.Text = "";
+            DescriptionTextBox.Text = "";
+            LocalPortsTextBox.Text = "";
+            ProtocolComboBox.SelectedIndex = -1;
+
         }
     }
 }
