@@ -4182,8 +4182,14 @@
     "Protocol": 6
   },
   {
-    "Name": "testing wpf1",
-    "Description": "blocking rdp",
+    "Name": "test2",
+    "Description": "testing with new filepath link",
+    "LocalPorts": "3389",
+    "Protocol": 3389
+  },
+  {
+    "Name": "test2",
+    "Description": "testing with new filepath link",
     "LocalPorts": "3389",
     "Protocol": 3389
   }

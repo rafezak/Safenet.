@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Safenet_2._0.Models;
+﻿using Safenet_2._0.Models;
 using NetFwTypeLib; // Windows Firewall
 using System.Text.Json; // JSON Sterialization
 using System.Collections.ObjectModel;
@@ -15,9 +10,20 @@ namespace Safenet_2._0.Data
 {
     public class DataAccess
     {
-        private const string FilePathFW = "C:\\Users\\Rachel\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\firewall_rules.json";
-        private const string FilePathTips = "C:\\Users\\Rachel\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\SecurityTips.json";
+        //for relative paths so it fits every user who uses this from github
+        private const string RelativePath = "\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\";
+        private const string FileNameFW = "firewall_rules.json";
+        private const string FileNameTips = "SecurityTips.json";
 
+        private string GetFilePathFW()
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + RelativePath + FileNameFW;
+        }
+
+        private string GetFilePathTips()
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + RelativePath + FileNameTips;
+        }
         #region Firewall-Ports
 
         //Load the Firewall Port Rules
@@ -25,7 +31,7 @@ namespace Safenet_2._0.Data
         {
             try
             {
-                string json = File.ReadAllText(FilePathFW);
+                string json = File.ReadAllText(GetFilePathFW());
                 return JsonSerializer.Deserialize<ObservableCollection<Port>>(json);
             }
             catch (FileNotFoundException)
@@ -39,7 +45,7 @@ namespace Safenet_2._0.Data
         public void SaveRules(ObservableCollection<Port> rules)
         {
             string json = JsonSerializer.Serialize(rules, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(FilePathFW, json);
+            File.WriteAllText(GetFilePathFW(), json);
         }
 
         //get current firewall rules
@@ -119,7 +125,7 @@ namespace Safenet_2._0.Data
         {
             try
             {
-                string json = File.ReadAllText(FilePathTips);
+                string json = File.ReadAllText(GetFilePathTips());
                 return JsonSerializer.Deserialize<ObservableCollection<Tip>>(json);
             }
             catch (FileNotFoundException)
