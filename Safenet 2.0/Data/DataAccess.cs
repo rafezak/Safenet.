@@ -1,21 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Safenet_2._0.Models;
+﻿using Safenet_2._0.Models;
 using NetFwTypeLib; // Windows Firewall
 using System.Text.Json; // JSON Sterialization
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Windows;
+using System.Text.Json.Serialization;
+using System.Data;
 
 namespace Safenet_2._0.Data
 {
     public class DataAccess
     {
-        private const string FilePathFW = "C:\\Users\\Rafezak\\source\\repos\\Safenet 2.0\\Safenet 2.0\\Data\\firewall_rules.json";
+        //for relative paths so it fits every user who uses this from github
+        private const string RelativePath = "\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\";
+        private const string FileNameFW = "firewall_rules.json";
+        private const string FileNameTips = "SecurityTips.json";
 
+        private string GetFilePathFW()
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + RelativePath + FileNameFW;
+        }
+
+        private string GetFilePathTips()
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + RelativePath + FileNameTips;
+        }
         #region Firewall-Ports
 
         //Load the Firewall Port Rules
@@ -23,7 +32,7 @@ namespace Safenet_2._0.Data
         {
             try
             {
-                string json = File.ReadAllText(FilePathFW);
+                string json = File.ReadAllText(GetFilePathFW());
                 return JsonSerializer.Deserialize<ObservableCollection<Port>>(json);
             }
             catch (FileNotFoundException)
@@ -37,7 +46,31 @@ namespace Safenet_2._0.Data
         public void SaveRules(ObservableCollection<Port> rules)
         {
             string json = JsonSerializer.Serialize(rules, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(FilePathFW, json);
+            File.WriteAllText(GetFilePathFW(), json);
+        }
+
+        public void AddNewRule(ObservableCollection<Port> rules)
+        {
+
+            List<Port> newRules;
+
+            if(File.Exists(GetFilePathFW()))
+            {
+                string jsonString = File.ReadAllText(GetFilePathFW());
+
+                newRules = JsonSerializer.Deserialize<List<Port>>(jsonString);
+            }
+            else
+            {
+                newRules = new List<Port>();
+            }
+
+            newRules.AddRange(rules);
+
+            string updatedJsongString = JsonSerializer.Serialize(rules);
+
+            File.WriteAllText(GetFilePathFW(), updatedJsongString);
+
         }
 
         //get current firewall rules
@@ -107,6 +140,50 @@ namespace Safenet_2._0.Data
                 MessageBox.Show("Failed to delete firewall rule: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
+        public void DeleteFirewallRuleFromJson(Port port)
+        {
+            try
+            {
+                ObservableCollection<Port> ports = LoadRules();
+                // Find and remove the rule from the collection
+                var ruleToRemove = ports.FirstOrDefault(p => p.Name == port.Name);
+                if (ruleToRemove != null)
+                {
+                    ports.Remove(ruleToRemove);
+                    SaveRules(ports);
+                }
+                else
+                {
+                    MessageBox.Show("Rule not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to delete firewall rule: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }  
+        }
+
+
+        #endregion
+
+
+        #region read tips from json
+
+        public ObservableCollection<Tip> LoadTips()
+        {
+            try
+            {
+                string json = File.ReadAllText(GetFilePathTips());
+                return JsonSerializer.Deserialize<ObservableCollection<Tip>>(json);
+            }
+            catch (FileNotFoundException)
+            {
+                // If the file is not found, return an empty collection
+                return new ObservableCollection<Tip>();
+            }
+        }
+
 
         #endregion
 

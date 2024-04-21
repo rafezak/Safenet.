@@ -1,18 +1,14 @@
 ﻿using Safenet_2._0.Data;
+using Safenet_2._0.Models;
+using Safenet_2._0.ViewModel;
 using Safenet_2._0.Views;
 using System.Collections.ObjectModel;
 using System.Data;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace Safenet_2._0
 {
@@ -21,11 +17,17 @@ namespace Safenet_2._0
     /// </summary>
     public partial class MainWindow : Window
     {
+        //connection to DAL 
         private DataAccess _dal;
+
+        //to check if a user is typing in the searchbar
+
+        //connecting to viewmodel
+        private MainViewModel viewModel;
+
+        //making sure that when 2nd window is closed that it goes back to the right tab.
         public int SelectedTabIndex { get; set; }
 
-
-        //int J = 1;
         // Define the dataset for the datagrid
         private System.Data.DataTable portData;
         private System.Data.DataTable portAppdata;
@@ -34,12 +36,18 @@ namespace Safenet_2._0
         {
             InitializeComponent();
 
+            //accessing DAL
             _dal = new DataAccess();
+            viewModel = new MainViewModel();
+            DataContext = viewModel;
 
+            //loading in the lists
             ObservableCollection<Models.Port> rules = _dal.LoadRules();
+            ObservableCollection<Models.Tip> tips = _dal.LoadTips();
 
             FWRulesGrid.ItemsSource = rules;
-
+            TipsListBox.ItemsSource = tips;
+            #region grid layout linking
             portData = new System.Data.DataTable();
 
             Buttongrid.ItemsSource = null; // Clear the ItemsSource       
@@ -83,6 +91,7 @@ namespace Safenet_2._0
                 togglebuttonpanel.Children.Add(toggleButton);
             }
         }
+        #endregion
 
         private void Darkmode_switch(object sender, RoutedEventArgs e)
         {
@@ -92,31 +101,16 @@ namespace Safenet_2._0
             this.Background = brush;
         }
 
+        ///why do we even still have this button? @raf -> it serves no purpose and has no function || Just confuses the user.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // Get the clicked button
             Button button = (Button)sender;
-
-            // Get the corresponding row index
-           // int rowIndex = Buttonpanel.Children.IndexOf(button);
-
-            // Get the corresponding DataRow
-           // DataRow row = portData.Rows[rowIndex];
-
-            // Toggle the status value
-   /*         if (row["Status"].ToString() == "Open")
-            {
-                row["Status"] = "Closed";
-            }
-            else if (row["Status"].ToString() == "Closed")
-            {
-                row["Status"] = "Open";
-            }*/
         }
 
         private void SecureIT_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("All ports have been closed!");
+            MessageBox.Show("Settings applied!");
         }
 
         private void AboutSecureIT_Click(object sender, RoutedEventArgs e)
@@ -160,6 +154,8 @@ namespace Safenet_2._0
         {
             MainWindowTabControl.SelectedIndex = index;
         }
+
+        //go to new page to create rule
         private void EditFirewall_Click_1(object sender, RoutedEventArgs e)
         {
             CustomFirewallRule customFirewallRule = new CustomFirewallRule();
@@ -167,7 +163,53 @@ namespace Safenet_2._0
             customFirewallRule.Show();
             this.Hide();
         }
-    }
 
-   
+        private void DeleteFirewallRule_Click(object sender, RoutedEventArgs e)
+        {
+            // delete function -> Only deleting in the json because.. of safety reasons > incase of real develeopment it would delete a rule in your firewall || function exists in DAL.
+            if (viewModel.SelectedPort != null)
+            {
+                _dal.DeleteFirewallRuleFromJson(viewModel.SelectedPort);
+            }
+            else
+            {
+                MessageBox.Show("Please select a rule to delete.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+        }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Check if viewModel is not null
+            if (viewModel != null)
+            {
+                //get the text entered by user
+                string searchText = searchTextBox.Text.ToLower();
+
+                // Filter the tips based on the search text
+                viewModel.FilterTips(searchText);
+
+            }
+            else
+            {
+                // Handle the case when viewModel is null
+                
+            }
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string searchText = searchTextBox.Text.ToLower();
+            viewModel.FilterTips(searchText);
+        }
+
+        private void FWRulesGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Update selected item property
+            viewModel.SelectedPort = (Port)FWRulesGrid.SelectedItem;
+        }
+
+
+
+    }
 }

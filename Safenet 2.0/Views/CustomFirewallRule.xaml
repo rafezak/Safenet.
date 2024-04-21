@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Safenet_2._0.Views"
         mc:Ignorable="d"
-        Title="CustomFirewallRule" Height="450" Width="800">
+        Title="Create Custom Firewall Rule" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -16,33 +16,33 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="Name:"/>
-        <TextBox Grid.Row="0" x:Name="NameTextBox" Margin="5"/>
+        <Label Grid.Row="0" Content="Rule Name:" Margin="0,0,0,28" Grid.RowSpan="2"/>
+        <TextBox Grid.Row="0" x:Name="NameTextBox" Margin="153,5,5,5"/>
 
-        <Label Grid.Row="1" Content="Description:"/>
-        <TextBox Grid.Row="1" x:Name="DescriptionTextBox" Margin="5"/>
+        <Label Grid.Row="1" Content="Rule Description:" Margin="0,0,0,28" Grid.RowSpan="2"/>
+        <TextBox Grid.Row="1" x:Name="DescriptionTextBox" Margin="153,5,5,5"/>
 
-        <Label Grid.Row="2" Content="Local Ports:"/>
-        <TextBox Grid.Row="2" x:Name="LocalPortsTextBox" Margin="5"/>
+        <Label Grid.Row="2" Content="Local Ports:" Margin="0,0,0,32" Grid.RowSpan="2"/>
+        <TextBox Grid.Row="2" x:Name="LocalPortsTextBox" Margin="153,5,5,5"/>
 
-        <Label Grid.Row="3" Content="Protocol:"/>
-        <ComboBox Grid.Row="3" x:Name="ProtocolComboBox" Margin="5">
-            <ComboBoxItem Content="TCP" Tag="6"/>
-            <ComboBoxItem Content="UDP" Tag="17"/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
-            <ComboBoxItem Content="" Tag=""/>
+        <Label Grid.Row="3" Content="Protocol:" Grid.RowSpan="3"/>
+        <ComboBox Grid.Row="3" x:Name="ProtocolComboBox" Margin="153,5,5,5">
+            <ComboBoxItem Content="HTTP - Hypertext Transfer Protocol" Tag="80"/>
+            <ComboBoxItem Content="HTTPS - Hypertext Transfer Protocol Secure" Tag="port 443"/>
+            <ComboBoxItem Content="SSH - Secure Shell" Tag="22"/>
+            <ComboBoxItem Content="FTP - File Transfer Protocol Control" Tag="21"/>
+            <ComboBoxItem Content="FTP - File Transfer Protocol Data" Tag="20"/>
+            <ComboBoxItem Content="DNS - Domain Name System" Tag="53"/>
+            <ComboBoxItem Content="SNMP - Simple Network Management Protocol" Tag="161"/>
+            <ComboBoxItem Content="SNMP - Simple Network Management Protocol Trap " Tag="162"/>
+            <ComboBoxItem Content="SMB - Server Message Block" Tag="445"/>
+            <ComboBoxItem Content="RDP - Remote Desktop Protocol" Tag="3389"/>
+            <ComboBoxItem Content="DHCP - Dynamic Host Configuration Protocol Server" Tag="67"/>
+            <ComboBoxItem Content="DHCP - Dynamic Host Configuration Protocol Client" Tag="68"/>
         </ComboBox>
 
-        <Button Grid.Row="5" Content="Add Rule" Click="AddRuleButton_Click" Margin="498,39,151,-69"/>
-        <Button Grid.Row="5" Content="Cancel" Click="CancelButton_Click" Margin="195,37,482,-69"/>
+        <Button x:Name ="btnAddRule" Grid.Row="5" Content="Add Rule" Click="AddRuleButton_Click" Margin="489,215,160,-245"/>
+        <Button Grid.Row="5" Content="Cancel" Click="CancelButton_Click" Margin="186,213,491,-245" Background="Red" Foreground="White" FontWeight="Bold"/>
 
     </Grid>
 </Window>

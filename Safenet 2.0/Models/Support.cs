@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Safenet_2._0.Models
 {
-    internal class Support
+    public class Support
     {
+        public int TicketId { get; set; }
+        public string Subject { get; set; }
+        public string Description { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public bool IsResolved { get; set; }
     }
 }

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Safenet_2._0.Models
 {
-    public class BlockApp
+    public class Software
     {
+        public string? Name { get; set; }
+        
+        public string? URL { get; set; }
 
+        public bool IsBlocked { get; set; }
     }
 }
