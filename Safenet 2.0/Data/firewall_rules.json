@@ -1,5 +1,19 @@
 [
   {
+    "Name": "Google Chrome (mDNS-In)",
+    "Description": "Inbound rule for Google Chrome to allow mDNS traffic.",
+    "LocalPorts": "5353",
+    "Protocol": 17,
+    "LogEntries": null
+  },
+  {
+    "Name": "Microsoft Edge (mDNS-In)",
+    "Description": "Inbound rule for Microsoft Edge to allow mDNS traffic.",
+    "LocalPorts": "5353",
+    "Protocol": 17,
+    "LogEntries": null
+  },
+  {
     "Name": "@{AppUp.IntelTechnologyMDE_20.20.8130.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
     "Description": "@{AppUp.IntelTechnologyMDE_20.20.8130.0_x64__8j3eq9eme6ctt?ms-resource://AppUp.IntelTechnologyMDE/WebphoneSession/Resources/ProductName}",
     "LocalPorts": null,
@@ -95,20 +109,6 @@
     "Description": "Microsoft Store",
     "LocalPorts": null,
     "Protocol": 256,
-    "LogEntries": null
-  },
-  {
-    "Name": "Google Chrome (mDNS-In)",
-    "Description": "Inbound rule for Google Chrome to allow mDNS traffic.",
-    "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
-  },
-  {
-    "Name": "Microsoft Edge (mDNS-In)",
-    "Description": "Inbound rule for Microsoft Edge to allow mDNS traffic.",
-    "LocalPorts": "5353",
-    "Protocol": 17,
     "LogEntries": null
   },
   {
