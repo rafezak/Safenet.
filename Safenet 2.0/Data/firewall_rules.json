@@ -3,4879 +3,4188 @@
     "Name": "Microsoft Edge (mDNS-In)",
     "Description": "Binnenkomende regel voor Microsoft Edge om mDNS-verkeer toe te staan.",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Google Chrome (mDNS-In)",
     "Description": "Inkomende regel zodat Google Chrome mDNS-verkeer toestaat.",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "purpleon_global",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "PurpleBox",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "PURPLE.cefsharp.browsersubprocess",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Dropbox",
     "Description": null,
     "LocalPorts": "17500",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Dropbox",
     "Description": null,
     "LocalPorts": "17500-17510",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Brave (mDNS-In)",
     "Description": "Inkomende regel zodat Brave mDNS-verkeer toestaat.",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Microsoft Teams (work or school)",
     "Description": "Microsoft Teams (work or school)",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Microsoft Teams (work or school)",
     "Description": "Microsoft Teams (work or school)",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Microsoft Store",
     "Description": "Microsoft Store",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Microsoft Store",
     "Description": "Microsoft Store",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Microsoft Edge (mDNS-In)",
     "Description": "Binnenkomende regel voor Microsoft Edge om mDNS-verkeer toe te staan.",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "WhatsApp",
     "Description": "WhatsApp",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "WhatsApp",
     "Description": "WhatsApp",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.Photos_2024.11030.15001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}",
     "Description": "@{Microsoft.Windows.Photos_2024.11030.15001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.Photos_2024.11030.15001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}",
     "Description": "@{Microsoft.Windows.Photos_2024.11030.15001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsAlarms_11.2403.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsAlarms_11.2403.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsAlarms_11.2403.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsAlarms_11.2403.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.BingWeather_4.53.60911.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.BingWeather/Resources/ApplicationTitleWithBranding}",
     "Description": "@{Microsoft.BingWeather_4.53.60911.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.BingWeather/Resources/ApplicationTitleWithBranding}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.BingWeather_4.53.60911.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.BingWeather/Resources/ApplicationTitleWithBranding}",
     "Description": "@{Microsoft.BingWeather_4.53.60911.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.BingWeather/Resources/ApplicationTitleWithBranding}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsTerminal_1.19.10821.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsTerminal/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsTerminal_1.19.10821.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsTerminal/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Content Warning",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Content Warning",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Microsoft Lync UcMapi",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Microsoft Lync",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@{Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.People/Resources/AppStoreName}",
     "Description": "@{Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.People/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsCamera_2024.2402.5.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsCamera_2024.2402.5.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.MSPaint_6.2402.12017.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MSPaint/resources/AppName}",
     "Description": "@{Microsoft.MSPaint_6.2402.12017.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MSPaint/resources/AppName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.DesktopAppInstaller_1.22.10861.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}",
     "Description": "@{Microsoft.DesktopAppInstaller_1.22.10861.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.DesktopAppInstaller_1.22.10861.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}",
     "Description": "@{Microsoft.DesktopAppInstaller_1.22.10861.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "One Dragon Center Bridge",
     "Description": null,
     "LocalPorts": "32682",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Riot Client",
     "Description": "Riot Client",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Riot Client",
     "Description": "Riot Client",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@{Microsoft.ZuneMusic_11.2402.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}",
     "Description": "@{Microsoft.ZuneMusic_11.2402.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.ZuneMusic_11.2402.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}",
     "Description": "@{Microsoft.ZuneMusic_11.2402.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "NVIDIA Control Panel",
     "Description": "NVIDIA Control Panel",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{microsoft.windowscommunicationsapps_16005.14326.21854.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_DisplayName}",
     "Description": "@{microsoft.windowscommunicationsapps_16005.14326.21854.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_Description}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{microsoft.windowscommunicationsapps_16005.14326.21854.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_DisplayName}",
     "Description": "@{microsoft.windowscommunicationsapps_16005.14326.21854.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_Description}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{MicrosoftWindows.Client.CBS_1000.19054.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/Resources/ProductPkgDisplayName}",
     "Description": "@{MicrosoftWindows.Client.CBS_1000.19054.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/Resources/ProductPkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{MicrosoftWindows.Client.CBS_1000.19054.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/Resources/ProductPkgDisplayName}",
     "Description": "@{MicrosoftWindows.Client.CBS_1000.19054.1000.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/Resources/ProductPkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.Search_1.14.13.19041_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Search/resources/PackageDisplayName}",
     "Description": "@{Microsoft.Windows.Search_1.14.13.19041_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Search/resources/ProductDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.Search_1.14.13.19041_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Search/resources/PackageDisplayName}",
     "Description": "@{Microsoft.Windows.Search_1.14.13.19041_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Search/resources/ProductDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Messenger",
     "Description": "Messenger by Facebook",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Microsoft Whiteboard",
     "Description": "Microsoft Whiteboard",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.StorePurchaseApp_22312.1401.4.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}",
     "Description": "@{Microsoft.StorePurchaseApp_22312.1401.4.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.StorePurchaseApp_22312.1401.4.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}",
     "Description": "@{Microsoft.StorePurchaseApp_22312.1401.4.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsCalculator_11.2401.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCalculator/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsCalculator_11.2401.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCalculator/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Sea of Thieves",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Sea of Thieves",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "OneNote for Windows 10",
     "Description": "OneNote for Windows 10",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "OneNote for Windows 10",
     "Description": "OneNote for Windows 10",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}",
     "Description": "@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Grounded",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Grounded",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@{Microsoft.Microsoft3DViewer_7.2401.29012.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Microsoft3DViewer/Common.View.UWP/Resources/StoreAppName}",
     "Description": "@{Microsoft.Microsoft3DViewer_7.2401.29012.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Microsoft3DViewer/Common.View.UWP/Resources/StoreAppName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Microsoft 365 (Office)",
     "Description": "Microsoft 365 (Office)",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/resources/IDS_MANIFEST_VIDEO_APP_NAME}",
     "Description": "@{Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/resources/IDS_MANIFEST_VIDEO_APP_DESCRIPTION}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/resources/IDS_MANIFEST_VIDEO_APP_NAME}",
     "Description": "@{Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/resources/IDS_MANIFEST_VIDEO_APP_DESCRIPTION}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Todos_2.114.7122.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}",
     "Description": "@{Microsoft.Todos_2.114.7122.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Todos_2.114.7122.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}",
     "Description": "@{Microsoft.Todos_2.114.7122.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "VLC media player",
     "Description": "VLC media player",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "VLC media player",
     "Description": "VLC media player",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@{Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Getstarted/Resources/AppStoreName}",
     "Description": "@{Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Getstarted/Resources/AppStoreName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Escape Simulator",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Escape Simulator",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@{Microsoft.MicrosoftStickyNotes_6.0.2.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftStickyNotes/Resources/StickyNotesStoreAppName}",
     "Description": "@{Microsoft.MicrosoftStickyNotes_6.0.2.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftStickyNotes/Resources/StickyNotesStoreAppName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.MicrosoftStickyNotes_6.0.2.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftStickyNotes/Resources/StickyNotesStoreAppName}",
     "Description": "@{Microsoft.MicrosoftStickyNotes_6.0.2.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftStickyNotes/Resources/StickyNotesStoreAppName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "postman.exe",
     "Description": "postman.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "postman.exe",
     "Description": "postman.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Iriun webcam",
     "Description": "Iriun webcam",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.AccountsControl_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}",
     "Description": "@{Microsoft.AccountsControl_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.LockApp_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}",
     "Description": "@{Microsoft.LockApp_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Win32WebViewHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}",
     "Description": "@{Microsoft.Win32WebViewHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/Description}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Win32WebViewHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}",
     "Description": "@{Microsoft.Win32WebViewHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/Description}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.Apprep.ChxApp_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}",
     "Description": "@{Microsoft.Windows.Apprep.ChxApp_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.NarratorQuickStart_10.0.19041.3636_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDisplayName}",
     "Description": "@{Microsoft.Windows.NarratorQuickStart_10.0.19041.3636_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.ParentalControls_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}",
     "Description": "@{Microsoft.Windows.ParentalControls_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.PeopleExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}",
     "Description": "@{Microsoft.Windows.PeopleExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.SecHealthUI_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecHealthUI/resources/PackageDisplayName}",
     "Description": "@{Microsoft.Windows.SecHealthUI_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecHealthUI/resources/ProductDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.SecHealthUI_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecHealthUI/resources/PackageDisplayName}",
     "Description": "@{Microsoft.Windows.SecHealthUI_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecHealthUI/resources/ProductDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.SecureAssessmentBrowser_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecureAssessmentBrowser/Resources/PackageDisplayName}",
     "Description": "@{Microsoft.Windows.SecureAssessmentBrowser_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecureAssessmentBrowser/Resources/PackageDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.XboxGameCallableUI_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}",
     "Description": "@{Microsoft.XboxGameCallableUI_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "NcsiUwpApp",
     "Description": "NcsiUwpApp",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.ContentDeliveryManager_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}",
     "Description": "@{Microsoft.Windows.ContentDeliveryManager_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.ShellExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ShellExperienceHost/resources/PkgDisplayName}",
     "Description": "@{Microsoft.Windows.ShellExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ShellExperienceHost/resources/PkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.StartMenuExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}",
     "Description": "@{Microsoft.Windows.StartMenuExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.StartMenuExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}",
     "Description": "@{Microsoft.Windows.StartMenuExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}",
     "Description": "@{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.19041.3636_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.AAD.BrokerPlugin_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}",
     "Description": "@{Microsoft.AAD.BrokerPlugin_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.AAD.BrokerPlugin_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}",
     "Description": "@{Microsoft.AAD.BrokerPlugin_1000.19041.3636.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.CloudExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
     "Description": "@{Microsoft.Windows.CloudExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.Windows.CloudExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
     "Description": "@{Microsoft.Windows.CloudExperienceHost_10.0.19041.3636_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "NVIDIA SHIELD Streaming NvStreamer UDP Exception",
     "Description": "UDP exceptions for NVIDIA SHIELD Streaming NvStreamer (RI/A/V)",
     "LocalPorts": "47995,47998,47999,48000,48002",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "NVIDIA SHIELD Streaming NvStreamer TCP Exception",
     "Description": "TCP exceptions for NVIDIA SHIELD Streaming NvStreamer (RI)",
     "LocalPorts": "47995",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "NVIDIA SHIELD Streaming SSAU UDP Exception",
     "Description": "UDP exceptions for NVIDIA SHIELD Streaming SSAU (NWT)",
     "LocalPorts": "47998",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "NVIDIA SHIELD Streaming NSS UDP Exception",
     "Description": "UDP exceptions for NVIDIA SHIELD Streaming NSS (RTSP)",
     "LocalPorts": "48010",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "windows_ie_ac_001",
     "Description": "Created by IE",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Icons8 Pichon",
     "Description": "Icons8 Pichon",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.GetHelp_10.2308.12552.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName}",
     "Description": "@{Microsoft.GetHelp_10.2308.12552.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "We Were Here Expeditions: The FriendShip",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "We Were Here Expeditions: The FriendShip",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "We Were Here",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "We Were Here",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "FINAL FANTASY XIV LAUNCHER",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "FINAL FANTASY XIV LAUNCHER",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "FINAL FANTASY XIV BOOT",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "FINAL FANTASY XIV BOOT",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Overwatch Application",
     "Description": "Overwatch Application",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Overwatch Application",
     "Description": "Overwatch Application",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "curseforge.exe",
     "Description": "curseforge.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "curseforge.exe",
     "Description": "curseforge.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Black Desert",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Black Desert",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "paladins",
     "Description": "paladins",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "paladins",
     "Description": "paladins",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Unity 2022.3.5f1 Editor",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Unity 2022.3.5f1 Editor",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Unity Hub",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "FOREWARNED",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "FOREWARNED",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "narakabladepoint",
     "Description": "narakabladepoint",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "narakabladepoint",
     "Description": "narakabladepoint",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "NARAKA: BLADEPOINT",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "NARAKA: BLADEPOINT",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "GT Auto Clicker",
     "Description": "GT Auto Clicker",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "fallguys_client_game",
     "Description": "fallguys_client_game",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "fallguys_client_game",
     "Description": "fallguys_client_game",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "launcher",
     "Description": "launcher",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "launcher",
     "Description": "launcher",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "aria2c",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "swarmagent.exe",
     "Description": "swarmagent.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "swarmagent.exe",
     "Description": "swarmagent.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "ue4editor.exe",
     "Description": "ue4editor.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "ue4editor.exe",
     "Description": "ue4editor.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Active Anticheat Updater",
     "Description": "Active Anticheat Updater",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Active Anticheat Updater",
     "Description": "Active Anticheat Updater",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "windows_ie_ac_001",
     "Description": "Created by IE",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "fallguys_client_game",
     "Description": "fallguys_client_game",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "fallguys_client_game",
     "Description": "fallguys_client_game",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Airhost service for Zoom Video Meetings",
     "Description": "Allow network traffic for Zoom Video Conference",
     "LocalPorts": "5353,7200-17210,8889",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Airhost service for Zoom Video Meetings",
     "Description": "Allow network traffic for Zoom Video Conference",
     "LocalPorts": "5000,7000,7100,50000,7200-17210,8888",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Zoom Video Meeting",
     "Description": "Allow network traffic for Zoom Video Conference",
     "LocalPorts": "7200-17210",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Kanban Tasker",
     "Description": "Kanban Tasker",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Kanban Tasker",
     "Description": "Kanban Tasker",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "\u03BCTorrent (UDP-In)",
     "Description": "Allow \u03BCTorrent network traffic with Edge Traversal",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "\u03BCTorrent (TCP-In)",
     "Description": "Allow \u03BCTorrent network traffic with Edge Traversal",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "S4MP Launcher.exe",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "S4MP Launcher.exe",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "S4MP Launcher.exe",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "S4MP Launcher.exe",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Tom Clancy\u0027s The Division\u00AE 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Microsoft Office Outlook",
     "Description": null,
     "LocalPorts": "6004",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Unity Hub",
     "Description": "Unity Hub",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Unity Hub",
     "Description": "Unity Hub",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Unity Hub",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Paladins",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Paladins",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wallpaper Engine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Wallpaper Engine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Overwatch Application",
     "Description": "Overwatch Application",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Overwatch Application",
     "Description": "Overwatch Application",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Left 4 Dead 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Left 4 Dead 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hogwarts Legacy",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Hogwarts Legacy",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "utorrent",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "utorrent",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "DragonCenter",
     "Description": "DragonCenter",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Print 3D",
     "Description": "Print 3D",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Print 3D",
     "Description": "Print 3D",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "@{Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MixedReality.Portal/Resources/PkgDisplayName}",
     "Description": "@{Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.MixedReality.Portal/Resources/PkgDisplayName}",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Packet Tracer Executable",
     "Description": "Packet Tracer Executable",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Packet Tracer Executable",
     "Description": "Packet Tracer Executable",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "newworld",
     "Description": "newworld",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "newworld",
     "Description": "newworld",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Packet Tracer Executable",
     "Description": "Packet Tracer Executable",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Packet Tracer Executable",
     "Description": "Packet Tracer Executable",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Little Witch in the Woods",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Little Witch in the Woods",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Labyrinthine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Labyrinthine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Fall Guys",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Fall Guys",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Blender",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Blender",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Among Us",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Among Us",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Light Bearers",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Light Bearers",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Phasmophobia",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Phasmophobia",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "LIGHTNING RETURNS: FINAL FANTASY XIII",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "LIGHTNING RETURNS: FINAL FANTASY XIII",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Light Bearers",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Light Bearers",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "PlateUp! Demo",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "PlateUp! Demo",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Blender",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Blender",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "UnrealEditor",
     "Description": "UnrealEditor",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "UnrealEditor",
     "Description": "UnrealEditor",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "unrealtraceserver.exe",
     "Description": "unrealtraceserver.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "unrealtraceserver.exe",
     "Description": "unrealtraceserver.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "EpicGamesLauncher",
     "Description": "EpicGamesLauncher",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "EpicGamesLauncher",
     "Description": "EpicGamesLauncher",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "newworld",
     "Description": "newworld",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "newworld",
     "Description": "newworld",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "NVIDIA SHIELD Streaming SSAS UDP Exception",
     "Description": "UDP exceptions for NVIDIA SHIELD Streaming SSAS (mDNS)",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "NVIDIA SHIELD Streaming NSS TCP Exception",
     "Description": "TCP exceptions for NVIDIA SHIELD Streaming NSS (HTTP/RTSP)",
     "LocalPorts": "47984,47989,48010",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Cyberpunk 2077",
     "Description": "Cyberpunk 2077",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Cyberpunk 2077",
     "Description": "Cyberpunk 2077",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "VMware Authd Service (private)",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "VMware Authd Service",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Overwatch Application",
     "Description": "Overwatch Application",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Overwatch Application",
     "Description": "Overwatch Application",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Active Anticheat Updater",
     "Description": "Active Anticheat Updater",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Active Anticheat Updater",
     "Description": "Active Anticheat Updater",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "ExitLag",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "ExitLag",
     "Description": null,
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "paladins",
     "Description": "paladins",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "paladins",
     "Description": "paladins",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "EpicWebHelper",
     "Description": "EpicWebHelper",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "EpicWebHelper",
     "Description": "EpicWebHelper",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Among Us",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Among Us",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "spotify.exe",
     "Description": "spotify.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "spotify.exe",
     "Description": "spotify.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Grand Theft Auto V",
     "Description": "Grand Theft Auto V",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "GamingOSD",
     "Description": "GamingOSD",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "GamingOSD",
     "Description": "GamingOSD",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wallpaper Engine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Wallpaper Engine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "teams.exe",
     "Description": "teams.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "teams.exe",
     "Description": "teams.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Fall Guys",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Fall Guys",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Labyrinthine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Labyrinthine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Asterix \u0026 Obelix XXL",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Asterix \u0026 Obelix XXL",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Asterix \u0026 Obelix XXL 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Asterix \u0026 Obelix XXL 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "smite",
     "Description": "smite",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Phasmophobia",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Phasmophobia",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "SMITE",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "EpicWebHelper",
     "Description": "EpicWebHelper",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "EpicWebHelper",
     "Description": "EpicWebHelper",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Left 4 Dead 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Left 4 Dead 2",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Active Anticheat Updater",
     "Description": "Active Anticheat Updater",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Active Anticheat Updater",
     "Description": "Active Anticheat Updater",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "utorrent.exe",
     "Description": "utorrent.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "utorrent.exe",
     "Description": "utorrent.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "utorrent.exe",
     "Description": "utorrent.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "utorrent.exe",
     "Description": "utorrent.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Stardew Valley",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Stardew Valley",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Firefox (C:\\Program Files\\Mozilla Firefox)",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Firefox (C:\\Program Files\\Mozilla Firefox)",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "spotify.exe",
     "Description": "spotify.exe",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "spotify.exe",
     "Description": "spotify.exe",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Paladins",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Paladins",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "vrisingserver",
     "Description": "vrisingserver",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "vrisingserver",
     "Description": "vrisingserver",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "webcam",
     "Description": "webcam",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "webcam",
     "Description": "webcam",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Little Witch in the Woods",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Little Witch in the Woods",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wallpaper Engine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Wallpaper Engine",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Steam Web Helper",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Steam Web Helper",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Steam",
     "Description": "Steam",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Steam",
     "Description": "Steam",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Microsoft Lync UcMapi",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Microsoft Lync",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "GamingOSD",
     "Description": "GamingOSD",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "GamingOSD",
     "Description": "GamingOSD",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "SNMP Trap-service (UDP In)",
     "Description": "Regel voor binnenkomend netwerkverkeer voor de SNMP Trap-service voor het toestaan van SNMP-traps. [UDP 162]",
     "LocalPorts": "162",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "SNMP Trap-service (UDP In)",
     "Description": "Regel voor binnenkomend netwerkverkeer voor de SNMP Trap-service voor het toestaan van SNMP-traps. [UDP 162]",
     "LocalPorts": "162",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Alleen WFD-stuurprogramma (TCP-In)",
     "Description": "Binnenkomende regel voor stuurprogramma\u0027s om te communiceren via WFD (TCP-In)",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Alleen WFD-stuurprogramma (TCP-Out)",
     "Description": "Binnenkomende regel voor stuurprogramma\u0027s om te communiceren via WFD (TCP-Out)",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Alleen WFD-stuurprogramma (UDP-In)",
     "Description": "Binnenkomende regel voor stuurprogramma\u0027s om te communiceren via WFD (UDP-In)",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Alleen WFD-stuurprogramma (UDP-Out)",
     "Description": "Binnenkomende regel voor stuurprogramma\u0027s om te communiceren via WFD (UDP-Out)",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Delivery Optimization (TCP-In)",
     "Description": "Regel voor binnenkomende verbindingen waardoor met Optimalisatie van verzending een verbinding kan worden gemaakt met externe eindpunten",
     "LocalPorts": "7680",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Delivery Optimization (UDP-In)",
     "Description": "Regel voor binnenkomende verbindingen waardoor met Optimalisatie van verzending een verbinding kan worden gemaakt met externe eindpunten",
     "LocalPorts": "7680",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Collaboration Computer Name Registration-service (PNRP-In)",
     "Description": "Binnenkomende regel voor de Windows Collaboration Computer Name Registration-service om omzetting van Peer-namen toe te staan. [UDP 3540]",
     "LocalPorts": "3540",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Collaboration Computer Name Registration-service (PNRP-Out)",
     "Description": "Uitgaande regel voor de Windows Collaboration Computer Name Registration-service om omzetting van Peer-namen toe te staan. [UDP 3540]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Collaboration Computer Name Registration-service (SSDP-In)",
     "Description": "Binnenkomende regel voor de Windows Collaboration Computer Name Registration-service om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Collaboration Computer Name Registration-service (SSDP-Out)",
     "Description": "Uitgaande regel voor de Windows Collaboration Computer Name Registration-service om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Connected Devices Platform (UDP-In)",
     "Description": "Regel voor binnenkomend Connected Devices Platform-verkeer [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Connected Devices Platform (UDP-Out)",
     "Description": "Regel voor uitgaand Connected Devices Platform-verkeer [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Connected Devices Platform (TCP-In)",
     "Description": "Regel voor binnenkomend Connected Devices Platform-verkeer [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Connected Devices Platform (TCP-Out)",
     "Description": "Regel voor uitgaand Connected Devices Platform-verkeer [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Connected Devices Platform - Wi-Fi Direct-transport (TCP-In)",
     "Description": "Regel om binnenkomend Wi-Fi Direct-verkeer te gebruiken in het Connected Devices Platform [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Connected Devices Platform - Wi-Fi Direct-transport (TCP-Out)",
     "Description": "Regel om uitgaand Wi-Fi Direct-verkeer te gebruiken in het Connected Devices Platform [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Core Networking - Bestemming onbereikbaar (ICMPv6-In)",
     "Description": "Het foutbericht Bestemming onbereikbaar wordt verzonden vanaf elk knooppunt waar een pakket om wat voor reden dan ook, behalve opstopping, niet kan worden doorgestuurd.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Pakket te groot (ICMPv6-In)",
     "Description": "Foutberichten over de pakketgrootte worden verzonden vanaf elk knooppunt vanaf waar het pakket niet kan worden doorgestuurd omdat het te groot is voor de volgende koppeling.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Pakket te groot (ICMPv6-Out)",
     "Description": "Foutberichten over de pakketgrootte worden verzonden vanaf elk knooppunt vanaf waar het pakket niet kan worden doorgestuurd omdat het te groot is voor de volgende koppeling.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Tijd overschreden (ICMPv6-In)",
     "Description": "Het foutbericht Tijd overschreden wordt gegenereerd vanaf elk knooppunt waar de waarde voor de hoplimiet op een willekeurig punt in het pad is verlaagd naar nul.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Tijd overschreden (ICMPv6-Out)",
     "Description": "Het foutbericht Tijd overschreden wordt gegenereerd vanaf elk knooppunt waar de waarde voor de hoplimiet op een willekeurig punt in het pad is verlaagd naar nul.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Parameterprobleem (ICMPv6-In)",
     "Description": "Foutberichten over parameterproblemen worden door knooppunten verzonden als een pakket verkeerd is gegenereerd.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Parameterprobleem (ICMPv6-Out)",
     "Description": "Foutberichten over parameterproblemen worden door knooppunten verzonden als een pakket verkeerd is gegenereerd.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Aanvraag voor neighbor-detectie (ICMPv6-In)",
     "Description": "Aanvragen voor neighbor-detectie worden door knooppunten verzonden om het adres van de Link-laag van een ander on-link IPv6-knooppunt te detecteren.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Aanvraag voor neighbor-detectie (ICMPv6-Out)",
     "Description": "Aanvragen voor neighbor-detectie worden door knooppunten verzonden om het adres van de Link-laag van een ander on-link IPv6-knooppunt te detecteren.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Advertisement voor neighbor-detectie (ICMPv6-In)",
     "Description": "Advertisements voor neighbor-detectie worden door knooppunten verzonden om andere knooppunten te waarschuwen voor wijzigingen in het adres van de Link-laag of als reactie op een aanvraag voor neighbor-detectie.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Advertisement voor neighbor-detectie (ICMPv6-Out)",
     "Description": "Advertisements voor neighbor-detectie worden door knooppunten verzonden om andere knooppunten te waarschuwen voor wijzigingen in het adres van de Link-laag of als reactie op een aanvraag voor neighbor-detectie.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Router-advertisement (ICMPv6-In)",
     "Description": "Router-advertisements worden door routers naar andere knooppunten verzonden voor staatloze automatische configuratie.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Router-advertisement (ICMPv6-Out)",
     "Description": "Router-advertisements worden door routers naar andere knooppunten verzonden voor staatloze automatische configuratie.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Routeraanvraag (ICMPv6-In)",
     "Description": "Berichten met routeraanvragen worden verzonden door knooppunten waarvoor routers nodig zijn voor staatloze automatische configuratie.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Routeraanvraag (ICMPv6-Out)",
     "Description": "Berichten met routeraanvragen worden verzonden door knooppunten waarvoor routers nodig zijn voor staatloze automatische configuratie.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Query voor multicastlistener (ICMPv6-In)",
     "Description": "Een IPv6-multicastrouter maakt gebruik van het bericht Query voor multicastlistener om na te gaan of een koppeling lid is van een multicastgroep.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Query voor multicastlistener (ICMPv6-Out)",
     "Description": "Een IPv6-multicastrouter maakt gebruik van het bericht Query voor multicastlistener om na te gaan of een koppeling lid is van een multicastgroep.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Rapport voor multicastlistener (ICMPv6-In)",
     "Description": "Het bericht Rapport voor een multicastlistener wordt gebruikt door een luisterend knooppunt om de interesse in het ontvangen van multicastverkeer op een bepaald multicastadres te rapporteren of als reactie op een query voor een multicastlistener.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Rapport voor multicastlistener (ICMPv6-Out)",
     "Description": "Het bericht Rapport voor een multicastlistener wordt gebruikt door een luisterend knooppunt om de interesse in het ontvangen van multicastverkeer op een bepaald multicastadres te rapporteren of als reactie op een query voor een multicastlistener.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Rapport voor multicastlistener v2 (ICMPv6-In)",
     "Description": "Het bericht Rapport voor een multicastlistener v2 wordt gebruikt door een luisterend knooppunt om de interesse in het ontvangen van multicastverkeer op een bepaald multicastadres te rapporteren of als reactie op een query voor een multicastlistener.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Rapport voor multicastlistener v2 (ICMPv6-Out)",
     "Description": "Het bericht Rapport voor een multicastlistener v2 wordt gebruikt door een luisterend knooppunt om de interesse in het ontvangen van multicastverkeer op een bepaald multicastadres te rapporteren of als reactie op een query voor een multicastlistener.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Multicastlistener gereed (ICMPv6-In)",
     "Description": "Het bericht Multicastlistener gereed wordt gebruikt om lokale routers te informeren dat er mogelijk geen leden zijn voor een bepaald multicastadres meer op het subnet zijn.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Multicastlistener gereed (ICMPv6-Out)",
     "Description": "Het bericht Multicastlistener gereed wordt gebruikt om lokale routers te informeren dat er mogelijk geen leden zijn voor een bepaald multicastadres meer op het subnet zijn.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Core Networking - Bestemming onbereikbaar, fragmentatie nodig (ICMPv4-In)",
     "Description": "Het foutbericht Bestemming onbereikbaar, fragmentatie nodig wordt verzonden vanaf een knooppunt als een pakket niet kan worden doorgestuurd omdat fragmentatie nodig is terwijl de bit Niet fragmenteren is ingesteld.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Core Networking - Internet Group Management Protocol (IGMP-In)",
     "Description": "IGMP-berichten worden door knooppunten verzonden en ontvangen om multicastgroepen te maken, samen te voegen en te verlaten.",
     "LocalPorts": null,
-    "Protocol": 2,
-    "LogEntries": null
+    "Protocol": 2
   },
   {
     "Name": "Core Networking - Internet Group Management Protocol (IGMP-Out)",
     "Description": "IGMP-berichten worden door knooppunten verzonden en ontvangen om multicastgroepen te maken, samen te voegen en te verlaten.",
     "LocalPorts": null,
-    "Protocol": 2,
-    "LogEntries": null
+    "Protocol": 2
   },
   {
     "Name": "Core Networking - Dynamic Host Configuration Protocol (DHCP-In)",
     "Description": "Staat DHCP-berichten (Dynamic Host Configuration Protocol) toe voor stateful-autoconfiguratie.",
     "LocalPorts": "68",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Core Networking - Dynamic Host Configuration Protocol (DHCP-Out)",
     "Description": "Staat DHCP-berichten (Dynamic Host Configuration Protocol) toe voor stateful-autoconfiguratie.",
     "LocalPorts": "68",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Core Networking - Dynamic Host Configuration Protocol voor IPv6(DHCPV6-In)",
     "Description": "Hiermee worden DHCPV6-berichten (Dynamic Host Configuration Protocol for IPv6) toegestaan voor stateful- en stateless-configuratie.",
     "LocalPorts": "546",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Core Networking - Dynamic Host Configuration Protocol voor IPv6(DHCPV6-Out)",
     "Description": "Hiermee worden DHCPV6-berichten (Dynamic Host Configuration Protocol for IPv6) toegestaan voor stateful- en stateless-configuratie.",
     "LocalPorts": "546",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Core Networking - Teredo (UDP-In)",
     "Description": "Binnenkomende UDP-regel voor het toestaan van Teredo edge traversal, een technologie die adrestoewijzing en automatische tunnelling voor unicast IPv6-verkeer levert, als een IPv6/IPv4-host zich achter een IPv4 NAT (Network Address Translator) bevindt.",
     "LocalPorts": "Teredo,",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Core Networking - Teredo (UDP-Out)",
     "Description": "Uitgaande UDP-regel voor het toestaan van Teredo edge traversal, een technologie die adrestoewijzing en automatische tunnelling voor unicast IPv6-verkeer levert, als een IPv6/IPv4-host zich achter een IPv4 NAT (Network Address Translator) bevindt.",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Core Networking - IPHTTPS (TCP-In)",
     "Description": "Binnenkomende TCP-regel zodat IPHTTPS-tunneltechnologie kan voorzien in connectiviteit over HTTP-proxy\u0027s en firewalls.",
     "LocalPorts": "IPHTTPS,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Core Networking - IPHTTPS (TCP-Out)",
     "Description": "Uitgaande TCP-regel zodat IPHTTPS-tunneltechnologie kan voorzien in connectiviteit over HTTP-proxy\u0027s en firewalls.",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Core Networking - IPv6 (IPv6-In)",
     "Description": "Binnenkomende regel vereist om IPv6-verkeer toe te staan voor ISATAP (Intra-Site Automatic Tunnel Addressing Protocol) en 6to4-tunnelservices.",
     "LocalPorts": null,
-    "Protocol": 41,
-    "LogEntries": null
+    "Protocol": 41
   },
   {
     "Name": "Core Networking - IPv6 (IPv6-Out)",
     "Description": "Uitgaande regel vereist om IPv6-verkeer toe te staan voor ISATAP (Intra-Site Automatic Tunnel Addressing Protocol) en 6to4-tunnelservices.",
     "LocalPorts": null,
-    "Protocol": 41,
-    "LogEntries": null
+    "Protocol": 41
   },
   {
     "Name": "Core Networking - Groepsbeleid (NP-Out)",
     "Description": "Core Networking - Groepsbeleid (NP-Out)",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Core Networking - Groepsbeleid (TCP-Out)",
     "Description": "Regel voor uitgaand verkeer die extern RPC-verkeer voor updates van groepsbeleid toestaat. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk - DNS (UDP-Out)",
     "Description": "Regel voor uitgaand verkeer die DNS-verkeer toestaat. DNS-antwoorden die zijn gebaseerd op aanvragen die met deze regel overeenkomen zijn toegestaan, ongeacht het bronadres. Dit gedrag is geclassificeerd als losse bronkoppeling. [LSM] [UDP 53]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk - groepsbeleid (LSASS-Out)",
     "Description": "Regel voor uitgaand verkeer die extern LSASS-verkeer voor updates van groepsbeleid toestaat [TCP].",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv4-In)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv4-Out)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv6-In)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv6-Out)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv4-In)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv4-Out)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv6-In)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Netwerkdiagnose - ICMP-echoaanvraag (ICMPv6-Out)",
     "Description": "ICMP-echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Performance Logs and Alerts (TCP-In)",
     "Description": "Binnenkomende regel voor gegevensverkeer voor Performance Logs and Alerts. [TCP-In]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Performance Logs and Alerts (DCOM-In)",
     "Description": "Binnenkomende regel voor Performance Logs and Alerts om externe DCOM-activering toe te staan. [TCP-135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Performance Logs and Alerts (TCP-In)",
     "Description": "Binnenkomende regel voor gegevensverkeer voor Performance Logs and Alerts. [TCP-In]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Performance Logs and Alerts (DCOM-In)",
     "Description": "Binnenkomende regel voor Performance Logs and Alerts om externe DCOM-activering toe te staan. [TCP-135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern volumebeheer - Virtual Disk Service (RPC)",
     "Description": "Binnenkomende regel voor Remote Volume Management - Virtual Disk Service om deze op afstand via RPC/TCP te beheren.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern volumebeheer - Lader van Virtual Disk Service (RPC)",
     "Description": "Binnenkomende regel voor laadprogramma voor Remote Volume Management - Virtual Disk Service om deze op afstand via RPC/TCP te beheren.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern volumebeheer (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer voor Remote Volume Management toe te staan.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern volumebeheer - Virtual Disk Service (RPC)",
     "Description": "Binnenkomende regel voor Remote Volume Management - Virtual Disk Service om deze op afstand via RPC/TCP te beheren.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern volumebeheer - Lader van Virtual Disk Service (RPC)",
     "Description": "Binnenkomende regel voor laadprogramma voor Remote Volume Management - Virtual Disk Service om deze op afstand via RPC/TCP te beheren.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern volumebeheer (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer voor Remote Volume Management toe te staan.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Synchronisatieclient voor Windows Apparaatbeheer (TCP uitgaand)",
     "Description": "Uitgaand TCP-verkeer van Synchronisatieclient voor Windows Apparaatbeheer toestaan",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van geplande taken (RPC)",
     "Description": "Binnenkomende regel voor de Task Scheduler-service die extern moet worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van geplande taken (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor de Task Scheduler-service.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van geplande taken (RPC)",
     "Description": "Binnenkomende regel voor de Task Scheduler-service die extern moet worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van geplande taken (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor de Task Scheduler-service.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "iSCSI-service (TCP-In)",
     "Description": "Binnenkomende regel voor de iSCSI-service om communicatie met een iSCSI-server of -apparaat toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "iSCSI-service (TCP-Out)",
     "Description": "Uitgaande regel voor de iSCSI-service om communicatie met een iSCSI-server of -apparaat toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "iSCSI-service (TCP-In)",
     "Description": "Binnenkomende regel voor de iSCSI-service om communicatie met een iSCSI-server of -apparaat toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "iSCSI-service (TCP-Out)",
     "Description": "Uitgaande regel voor de iSCSI-service om communicatie met een iSCSI-server of -apparaat toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern servicebeheer (RPC)",
     "Description": "Binnenkomende regel waarmee lokaal servicebeheer extern kan worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern servicebeheer (NP-In)",
     "Description": "Binnenkomende regel waarmee lokaal servicebeheer extern kan worden beheerd via named pipes.",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern servicebeheer (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor lokaal servicebeheer.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern servicebeheer (RPC)",
     "Description": "Binnenkomende regel waarmee lokaal servicebeheer extern kan worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern servicebeheer (NP-In)",
     "Description": "Binnenkomende regel waarmee lokaal servicebeheer extern kan worden beheerd via named pipes.",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern servicebeheer (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor lokaal servicebeheer.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Inschrijvingsservice voor Windows Apparaatbeheer (TCP uitgaand)",
     "Description": "Uitgaand TCP-verkeer van Inschrijvingsservice voor Windows Apparaatbeheer toestaan",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtuele machine controleren (Echoaanvraag - ICMPv4-In)",
     "Description": "Echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Virtuele machine controleren (Echoaanvraag - ICMPv6-In)",
     "Description": "Echoaanvraagberichten worden verzonden als ping-aanvragen aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Virtuele machine controleren (NB-Session-In)",
     "Description": "NetBIOS Session Service-verbindingen toestaan.",
     "LocalPorts": "139",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtuele machine controleren (RPC)",
     "Description": "De service Task Scheduler mag extern worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtuele machine controleren (DCOM-In)",
     "Description": "DCOM-verkeer toestaan voor extern Windows Management Instrumentation.",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Nabijheid delen via TCP (TCP sharing-In)",
     "Description": "Inkomende regel voor nabijheid delen via TCP",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Nabijheid delen via TCP (TCP sharing-Out)",
     "Description": "Uitgaande regel voor nabijheid delen via TCP",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (UPnP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (UPnP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (NB-Name-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om omzetting van NetBIOS-namen toe te staan. [UDP 137]",
     "LocalPorts": "137",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Name-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om omzetting van NetBIOS-namen toe te staan. [UDP 137]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Datagram-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "138",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Datagram-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD EventsSecure-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om veilige WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5358]",
     "LocalPorts": "5358",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD EventsSecure-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om veilige WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5358]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD Events-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5357]",
     "LocalPorts": "5357",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD Events-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5357]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (SSDP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (SSDP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (UPnP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (UPnP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (UPnPHost-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (NB-Name-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om omzetting van NetBIOS-namen toe te staan. [UDP 137]",
     "LocalPorts": "137",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Name-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om omzetting van NetBIOS-namen toe te staan. [UDP 137]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Datagram-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "138",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Datagram-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om apparaten te detecteren via Functiedetectie. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD-In)",
     "Description": "Inkomende regel voor Netwerkdetectie om apparaten te detecteren via Device Association Framework. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om apparaten te detecteren via Functiedetectie. [UDP 3702]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (LLMNR-UDP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om LLMNR (Link Local Multicast Name Resolution) toe te staan. [UDP 5355]",
     "LocalPorts": "5355",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (LLMNR-UDP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om LLMNR (Link Local Multicast Name Resolution) toe te staan. [UDP 5355]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (Pub WSD-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om apparaten op te sporen via Functiedetectie. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (Pub WSD-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om apparaten op te sporen via Functiedetectie. [UDP 3702]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD EventsSecure-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om veilige WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5358]",
     "LocalPorts": "5358",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD EventsSecure-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om veilige WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5358]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD Events-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5357]",
     "LocalPorts": "5357",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD Events-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5357]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (SSDP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerkdetectie voor Teredo (SSDP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (SSDP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (UPnPHost-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (UPnP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerkdetectie voor Teredo (UPnP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (UPnP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (NB-Name-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om omzetting van NetBIOS-namen toe te staan. [UDP 137]",
     "LocalPorts": "137",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Name-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om omzetting van NetBIOS-namen toe te staan. [UDP 137]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Datagram-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "138",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (NB-Datagram-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om apparaten te detecteren via Functiedetectie. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD-In)",
     "Description": "Inkomende regel voor Netwerkdetectie om apparaten te detecteren via Device Association Framework. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om apparaten te detecteren via Functiedetectie. [UDP 3702]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (LLMNR-UDP-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om LLMNR (Link Local Multicast Name Resolution) toe te staan. [UDP 5355]",
     "LocalPorts": "5355",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (LLMNR-UDP-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om LLMNR (Link Local Multicast Name Resolution) toe te staan. [UDP 5355]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (Pub WSD-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om apparaten op te sporen via Functiedetectie. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (Pub WSD-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om apparaten op te sporen via Functiedetectie. [UDP 3702]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Netwerk detecteren (WSD EventsSecure-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om veilige WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5358]",
     "LocalPorts": "5358",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD EventsSecure-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om veilige WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5358]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD Events-In)",
     "Description": "Binnenkomende regel voor Netwerk detecteren om WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5357]",
     "LocalPorts": "5357",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Netwerk detecteren (WSD Events-Out)",
     "Description": "Uitgaande regel voor Netwerk detecteren om WSDAPI-gebeurtenissen toe te staan via Functiedetectie. [TCP 5357]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Controleprogramma voor externe gebeurtenissen (RPC)",
     "Description": "Inkomende regel voor het controleren van externe gebeurtenissen via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Controleprogramma voor externe gebeurtenissen (RPC-EPMAP)",
     "Description": "Inkomende regel voor de RPCSS-service waarmee RPC/TCP-verkeer wordt toegestaan voor controle van externe gebeurtenissen.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van Windows Defender Firewall (RPC)",
     "Description": "Binnenkomende regel voor extern beheer van Windows Defender Firewall via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van Windows Defender Firewall (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor Windows Defender Firewall.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van Windows Defender Firewall (RPC)",
     "Description": "Binnenkomende regel voor extern beheer van Windows Defender Firewall via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern beheer van Windows Defender Firewall (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor Windows Defender Firewall.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "mDNS (UDP-In)",
     "Description": "Binnenkomende regel voor mDNS-verkeer [UDP]",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "mDNS (UDP-In)",
     "Description": "Binnenkomende regel voor mDNS-verkeer [UDP]",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "mDNS (UDP-In)",
     "Description": "Binnenkomende regel voor mDNS-verkeer [UDP]",
     "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "mDNS (UDP-Out)",
     "Description": "Uitgaande regel voor mDNS-verkeer [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "mDNS (UDP-Out)",
     "Description": "Uitgaande regel voor mDNS-verkeer [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "mDNS (UDP-Out)",
     "Description": "Uitgaande regel voor mDNS-verkeer [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "AllJoyn-router (TCP-In)",
     "Description": "Regel voor binnenkomend verkeer voor AllJoyn-router [TCP]",
     "LocalPorts": "9955",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "AllJoyn-router (TCP-Out)",
     "Description": "Regel voor uitgaand verkeer voor AllJoyn-router [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "AllJoyn-router (UDP-In)",
     "Description": "Regel voor binnenkomend verkeer voor AllJoyn-router [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "AllJoyn-router (UDP-Out)",
     "Description": "Regel voor uitgaand verkeer voor AllJoyn-router [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Certificaatinstallatieprogramma voor Windows Apparaatbeheer (TCP uitgaand)",
     "Description": "Uitgaand TCP-verkeer van Certificaatinstallatieprogramma voor Windows Apparaatbeheer toestaan",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Routering en RAS (GRE-In)",
     "Description": "Binnenkomende regel voor RRAS om GREP-verkeer (Generic Routing Encapsulation Protocol) toe te staan.",
     "LocalPorts": null,
-    "Protocol": 47,
-    "LogEntries": null
+    "Protocol": 47
   },
   {
     "Name": "Routering en RAS (GRE-Out)",
     "Description": "Uitgaande regel voor RRAS om GREP-verkeer (Generic Routing Encapsulation Protocol) toe te staan",
     "LocalPorts": null,
-    "Protocol": 47,
-    "LogEntries": null
+    "Protocol": 47
   },
   {
     "Name": "Routering en RAS (L2TP-In)",
     "Description": "Binnenkomende regel voor RRAS om L2TP-verkeer (Layer 2 Tunnel Protocol) toe te staan. [UDP 1701]",
     "LocalPorts": "1701",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Routering en RAS (L2TP-Out)",
     "Description": "Uitgaande regel voor RRAS om L2TP-verkeer (Layer 2 Tunnel Protocol) toe te staan. [UDP 1701]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Routering en RAS (PPTP-In)",
     "Description": "Binnenkomende regel voor RRAS om PPTP-verkeer (Point-to-Point Tunnel Protocol) toe te staan. [TCP 1723]",
     "LocalPorts": "1723",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Routering en RAS (PPTP-Out)",
     "Description": "Uitgaande regel voor RRAS om PPTP-verkeer (Point-to-Point Tunnel Protocol) toe te staan. [TCP 1723]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wi-Fi Direct-netwerkdetectie (binnenkomend)",
     "Description": "Regel voor binnenkomende verbindingen om WSD-apparaten in Wi-Fi Direct-netwerken te detecteren.",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Wi-Fi Direct-netwerkdetectie (uitgaand)",
     "Description": "Regel voor uitgaande verbindingen om WSD-apparaten in Wi-Fi Direct-netwerken te detecteren.",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Gebruik van Wi-Fi Direct-spooler (binnenkomend)",
     "Description": "Regel voor binnenkomende verbindingen om WSD-printers in Wi-Fi Direct-netwerken te gebruiken.",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Gebruik van Wi-Fi Direct-spooler (uitgaand)",
     "Description": "Regel voor uitgaande verbindingen om WSD-printers in Wi-Fi Direct-netwerken te gebruiken.",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Gebruik van Wi-Fi Direct-scanservice (binnenkomend)",
     "Description": "Regel voor binnenkomende verbindingen om WSD-scanners in Wi-Fi Direct-netwerken te gebruiken.",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Gebruik van Wi-Fi Direct-scanservice (uitgaand)",
     "Description": "Regel voor uitgaande verbindingen om WSD-scanners in Wi-Fi Direct-netwerken te gebruiken.",
     "LocalPorts": null,
-    "Protocol": 256,
-    "LogEntries": null
+    "Protocol": 256
   },
   {
     "Name": "Virtueel TPM-smartcardbeheer (DCOM-In)",
     "Description": "Binnenkomende regel voor extern virtueel TPM-smartcardbeheer om DCOM-activering mogelijk te maken. [TCP 135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtueel TPM-smartcardbeheer (TCP-In)",
     "Description": "Binnenkomende regel voor extern virtueel TPM-smartcardbeheerverkeer. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtueel TPM-smartcardbeheer (TCP-Out)",
     "Description": "Uitgaande regel voor extern virtueel TPM-smartcardbeheerverkeer. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtueel TPM-smartcardbeheer (DCOM-In)",
     "Description": "Binnenkomende regel voor extern virtueel TPM-smartcardbeheer om DCOM-activering mogelijk te maken. [TCP 135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtueel TPM-smartcardbeheer (TCP-In)",
     "Description": "Binnenkomende regel voor extern virtueel TPM-smartcardbeheerverkeer. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Virtueel TPM-smartcardbeheer (TCP-Out)",
     "Description": "Uitgaande regel voor extern virtueel TPM-smartcardbeheerverkeer. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern Event Log-beheer (RPC)",
     "Description": "Binnenkomende regel waarmee de lokale Event Log-service extern kan worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern Event Log-beheer (NP-In)",
     "Description": "Binnenkomende regel waarmee de lokale Event Log-service extern kan worden beheerd via named pipes.",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern Event Log-beheer (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor de lokale Event Log-service.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern Event Log-beheer (RPC)",
     "Description": "Binnenkomende regel waarmee de lokale Event Log-service extern kan worden beheerd via RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern Event Log-beheer (NP-In)",
     "Description": "Binnenkomende regel waarmee de lokale Event Log-service extern kan worden beheerd via named pipes.",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern Event Log-beheer (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor de lokale Event Log-service.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Draadloos beeldscherm (TCP-In)",
     "Description": "Binnenkomende regel voor draadloos beeldscherm [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Draadloos beeldscherm (TCP-Out)",
     "Description": "Uitgaande regel voor draadloos beeldscherm [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Draadloos beeldscherm (UDP-Out)",
     "Description": "Uitgaande regel voor draadloos beeldscherm [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Upstream-kanaal infrastructuur voor draadloos beeldscherm (TCP-In)",
     "Description": "Inkomende regel voor upstream-kanaal infrastructuur voor draadloos beeldscherm [TCP]",
     "LocalPorts": "7250",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (TCP-In)",
     "Description": "Binnenkomende regel voor Windows Peer to Peer Collaboration Foundation voor Peer-to-Peer-communicatie. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (TCP-Out)",
     "Description": "Uitgaande regel voor Windows Peer to Peer Collaboration Foundation voor Peer-to-Peer-communicatie. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (WSD-In)",
     "Description": "Binnenkomende regel voor Windows Peer to Peer Collaboration Foundation om apparaten te detecteren via WSDAPI. [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (WSD-Out)",
     "Description": "Uitgaande regel voor Windows Peer to Peer Collaboration Foundation om apparaten te detecteren via WSDAPI. [UDP 3702]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (PNRP-In)",
     "Description": "Binnenkomende regel voor Windows Peer to Peer Collaboration Foundation om omzetting van Peer-namen toe te staan. [UDP 3540]",
     "LocalPorts": "3540",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (PNRP-Out)",
     "Description": "Uitgaande regel voor Windows Peer to Peer Collaboration Foundation om omzetting van Peer-namen toe te staan. [UDP 3540]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (SSDP-In)",
     "Description": "Binnenkomende regel voor Windows Peer to Peer Collaboration Foundation om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Peer to Peer Collaboration Foundation (SSDP-Out)",
     "Description": "Uitgaande regel voor Windows Peer to Peer Collaboration Foundation om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Inschrijvingsservice voor Windows Apparaatbeheer (TCP uitgaand)",
     "Description": "Uitgaand TCP-verkeer van Inschrijvingsservice voor Windows Apparaatbeheer toestaan",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "DIAL-protocolserver (HTTP-In)",
     "Description": "Regel voor binnenkomend verkeer voor DIAL-protocolserver om extern beheer van apps toe te staan met gebruik van HTTP. [TCP 10247]",
     "LocalPorts": "10247",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "DIAL-protocolserver (HTTP-In)",
     "Description": "Regel voor binnenkomend verkeer voor DIAL-protocolserver om extern beheer van apps toe te staan met gebruik van HTTP. [TCP 10247]",
     "LocalPorts": "10247",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (DCOM-In)",
     "Description": "Binnenkomende regel om DCOM-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP 135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (WMI-In)",
     "Description": "Binnenkomende regel om WMI-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (WMI-Out)",
     "Description": "Uitgaande regel om WMI-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (ASync-In)",
     "Description": "Binnenkomende regel om asynchroon WMI-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (DCOM-In)",
     "Description": "Binnenkomende regel om DCOM-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP 135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (WMI-In)",
     "Description": "Binnenkomende regel om WMI-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (WMI-Out)",
     "Description": "Uitgaande regel om WMI-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Management Instrumentation (ASync-In)",
     "Description": "Binnenkomende regel om asynchroon WMI-verkeer toe te staan voor externe Windows Management Instrumentation. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Remote Management (HTTP-In)",
     "Description": "Binnenkomende regel voor Windows Remote Management via WS-Management [TCP 5985]",
     "LocalPorts": "5985",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Remote Management (HTTP-In)",
     "Description": "Binnenkomende regel voor Windows Remote Management via WS-Management [TCP 5985]",
     "LocalPorts": "5985",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Remote Management - compatibiliteitsmodus (HTTP-In)",
     "Description": "Binnenkomende regel voor compatibiliteitsmodus voor Windows Remote Management via WS-Management. [TCP 80]",
     "LocalPorts": "80",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Remote Management - compatibiliteitsmodus (HTTP-In)",
     "Description": "Binnenkomende regel voor compatibiliteitsmodus voor Windows Remote Management via WS-Management. [TCP 80]",
     "LocalPorts": "80",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Aanbevolen probleemoplossingsclient (uitgaande HTTP/HTTPS)",
     "Description": "Uitgaand HTTP/HTTPS-verkeer van aanbevolen probleemoplossingsclient toestaan",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Binnenkomende regel voor extern afsluiten (TCP-In)",
     "Description": "Binnenkomende regel voor extern afsluiten via dynamische RPC/TCP.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Binnenkomende regel voor extern afsluiten (RPC-EP-In)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (TCP-In)",
     "Description": "Binnenkomende regel om verkeer voor de Distributed Transaction Coordinator toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (TCP-Out)",
     "Description": "Uitgaande regel om verkeer voor de Distributed Transaction Coordinator toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (RPC)",
     "Description": "Binnenkomende regel voor de Kernel Transaction Resource Manager zodat de service Distributed Transaction Coordinator extern via RPC/TCP kan worden beheerd.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service voor het toestaan van RPC/TCP-verkeer van de Kernel Transaction Resource Manager voor de service Distributed Transaction Coordinator.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (TCP-In)",
     "Description": "Binnenkomende regel om verkeer voor de Distributed Transaction Coordinator toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (TCP-Out)",
     "Description": "Uitgaande regel om verkeer voor de Distributed Transaction Coordinator toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (RPC)",
     "Description": "Binnenkomende regel voor de Kernel Transaction Resource Manager zodat de service Distributed Transaction Coordinator extern via RPC/TCP kan worden beheerd.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Distributed Transaction Coordinator (RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service voor het toestaan van RPC/TCP-verkeer van de Kernel Transaction Resource Manager voor de service Distributed Transaction Coordinator.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (TCP-In)",
     "Description": "Binnenkomende regel voor verkeer voor Hulp op afstand. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (TCP-Out)",
     "Description": "Uitgaande regel voor verkeer voor Hulp op afstand. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (PNRP-In)",
     "Description": "Binnenkomende regel voor Hulp op afstand voor het toestaan van het gebruik van PNRP (Peer Name Resolution Protocol). [UDP 3540]",
     "LocalPorts": "3540",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Hulp op afstand (PNRP-Out)",
     "Description": "Uitgaande regel voor Hulp op afstand die het gebruik van het PNRP (Peer Name Resolution Protocol) toestaat. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Hulp op afstand (RA Server TCP-In)",
     "Description": "Binnenkomende regel voor Hulp op afstand om aanbiedingen voor hulp toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (RA Server TCP-Out)",
     "Description": "Uitgaande regel voor Hulp op afstand om aanbiedingen voor hulp toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (DCOM-In)",
     "Description": "Binnenkomende regel voor Hulp op afstand om toe te staan dat hulpaanbiedingen via DCOM mogen binnenkomen. [TCP 135]",
     "LocalPorts": "135",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (TCP-In)",
     "Description": "Binnenkomende regel voor verkeer voor Hulp op afstand. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (TCP-Out)",
     "Description": "Uitgaande regel voor verkeer voor Hulp op afstand. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (SSDP UDP-In)",
     "Description": "Binnenkomende regel voor Hulp op afstand om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Hulp op afstand (SSDP UDP-Out)",
     "Description": "Uitgaande regel voor Hulp op afstand om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Hulp op afstand (SSDP TCP-In)",
     "Description": "Binnenkomende regel voor Hulp op afstand om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (SSDP TCP-Out)",
     "Description": "Uitgaande regel voor Hulp op afstand om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Hulp op afstand (PNRP-In)",
     "Description": "Binnenkomende regel voor Hulp op afstand voor het toestaan van het gebruik van PNRP (Peer Name Resolution Protocol). [UDP 3540]",
     "LocalPorts": "3540",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Hulp op afstand (PNRP-Out)",
     "Description": "Uitgaande regel voor Hulp op afstand die het gebruik van het PNRP (Peer Name Resolution Protocol) toestaat. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "@FirewallAPI.dll,-80201",
     "Description": "@FirewallAPI.dll,-80202",
     "LocalPorts": "554,8554-8558",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@FirewallAPI.dll,-80204",
     "Description": "@FirewallAPI.dll,-80203",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@FirewallAPI.dll,-80206",
     "Description": "@FirewallAPI.dll,-80205",
     "LocalPorts": "5000-5020",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Session-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om verbindingen met de NetBIOS Session-service toe te staan. [TCP 139]",
     "LocalPorts": "139",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (NB-Session-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om verbindingen met de NetBIOS Session-service toe te staan. [TCP 139]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (SMB-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om overdracht en ontvangst van serverberichtblokken via named pipes toe te staan. [TCP 445]",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (SMB-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om overdracht en ontvangst van serverberichtblokken via named pipes toe te staan. [TCP 445]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (NB-Name-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om NetBIOS-naamomzetting toe te staan. [UDP 137]",
     "LocalPorts": "137",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Name-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om NetBIOS-naamomzetting toe te staan. [UDP 137]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Datagram-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "138",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Datagram-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (spoolerservice - RPC)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om communicatie van de Print Spooler-service via TCP/RPC toe te staan.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (spoolerservice - RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor de Spooler-service.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv4-In)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv4-Out)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv6-In)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv6-Out)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Bestands- en printerdeling (NB-Session-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om verbindingen met de NetBIOS Session-service toe te staan. [TCP 139]",
     "LocalPorts": "139",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (NB-Session-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om verbindingen met de NetBIOS Session-service toe te staan. [TCP 139]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (SMB-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om overdracht en ontvangst van serverberichtblokken via named pipes toe te staan. [TCP 445]",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (SMB-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om overdracht en ontvangst van serverberichtblokken via named pipes toe te staan. [TCP 445]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (NB-Name-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om NetBIOS-naamomzetting toe te staan. [UDP 137]",
     "LocalPorts": "137",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Name-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om NetBIOS-naamomzetting toe te staan. [UDP 137]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Datagram-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "138",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (NB-Datagram-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om overdracht en ontvangst van NetBIOS-datagrammen toe te staan. [UDP 138]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (spoolerservice - RPC)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om communicatie van de Print Spooler-service via TCP/RPC toe te staan.",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (spoolerservice - RPC-EPMAP)",
     "Description": "Binnenkomende regel voor de RPCSS-service om RPC/TCP-verkeer toe te staan voor de Spooler-service.",
     "LocalPorts": "RPC-EPMap,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv4-In)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv4-Out)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 1,
-    "LogEntries": null
+    "Protocol": 1
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv6-In)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Bestands- en printerdeling (Echoaanvraag - ICMPv6-Out)",
     "Description": "Een echoaanvraagbericht wordt verzonden als ping-aanvraag aan andere knooppunten.",
     "LocalPorts": null,
-    "Protocol": 58,
-    "LogEntries": null
+    "Protocol": 58
   },
   {
     "Name": "Bestands- en printerdeling (LLMNR-UDP-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling om LLMNR (Link Local Multicast Name Resolution) toe te staan. [UDP 5355]",
     "LocalPorts": "5355",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Bestands- en printerdeling (LLMNR-UDP-Out)",
     "Description": "Uitgaande regel voor Bestands- en printerdeling om LLMNR (Link Local Multicast Name Resolution) toe te staan. [UDP 5355]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "HomeGroup Binnenkomend",
     "Description": "HomeGroup Binnenkomend toestaan 3587",
     "LocalPorts": "3587",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "HomeGroup Uitgaand",
     "Description": "HomeGroup Uitgaand toestaan 3587",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "HomeGroup Binnenkomend (PNRP)",
     "Description": "HomeGroup Binnenkomend toestaan 3540 (PNRP)",
     "LocalPorts": "3540",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "HomeGroup Uitgaand (PNRP)",
     "Description": "HomeGroup Uitgaand toestaan 3540 (PNRP)",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Secure Socket Tunneling Protocol (SSTP-In)",
     "Description": "Regel voor binnenkomend netwerkverkeer waarmee binnenkomend HTTPS-verkeer wordt toegestaan voor SSTP (Secure Socket Tunneling Protocol). [TCP 443]",
     "LocalPorts": "443",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Connected User Experiences and Telemetry",
     "Description": "Uitgaand verkeer van ge\u00FCnificeerde telemetrie-client",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "WFD ASP-co\u00F6rdinatieprotocol (UDP in)",
     "Description": "Regel voor binnenkomende verbinding voor WLAN-service om co\u00F6rdinatieprotocol voor WFD-servicesessies toe te staan [UDP 7235]",
     "LocalPorts": "7235",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "WFD ASP-co\u00F6rdinatieprotocol (UDP uit)",
     "Description": "Regel voor uitgaande verbinding voor WLAN-service om co\u00F6rdinatieprotocol voor WFD-servicesessies toe te staan [UDP 7235]",
     "LocalPorts": "7235",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler x86 (UDP-In)",
     "Description": "Binnenkomende regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler x86 (UDP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler x86 (TCP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via TCP/HTTP toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler (UDP-In)",
     "Description": "Binnenkomende regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler (UDP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler (TCP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via TCP/HTTP toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-UDP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [UDP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-UDP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [UDP 2177]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-TCP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [TCP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-TCP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [TCP 2177]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (HTTP-Streaming-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om mediastreaming via HTTP toe te staan. [TCP 10243]",
     "LocalPorts": "10243",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (HTTP-Streaming-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om mediastreaming via HTTP toe te staan. [TCP 10243]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (Streaming-UDP-In)",
     "Description": "Binnenkomende regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (Streaming-UDP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (Streaming-TCP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via TCP/HTTP toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UDP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UDP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (TCP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (TCP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-UDP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [UDP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-UDP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [UDP 2177]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-TCP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [TCP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (qWave-TCP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [TCP 2177]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (SSDP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (SSDP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UPnP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UPnP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van Universal Plug and Play toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (HTTP-Streaming-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om mediastreaming via HTTP toe te staan. [TCP 10243]",
     "LocalPorts": "10243",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (HTTP-Streaming-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om mediastreaming via HTTP toe te staan. [TCP 10243]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (Streaming-UDP-In)",
     "Description": "Binnenkomende regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (Streaming-UDP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via UDP toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (Streaming-TCP-Out)",
     "Description": "Uitgaande regel voor Windows Mediaspeler om mediastreaming via TCP/HTTP toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UDP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UDP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (TCP-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (TCP-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het delen van verkeer toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (UPnPHost-Out)",
     "Description": "Uitgaande regel voor de Windows Mediaspeler Network Sharing-service om het gebruik van Universal Plug and Play toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wireless Portable Devices (TCP-Out)",
     "Description": "Uitgaande regel voor Wireless Portable Devices om het gebruik van het stuurprogrammaframework voor de gebruikersmodus toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wireless Portable Devices (TCP-Out)",
     "Description": "Uitgaande regel voor Wireless Portable Devices om het gebruik van het stuurprogrammaframework voor de gebruikersmodus toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wireless Portable Devices (SSDP-In)",
     "Description": "Binnenkomende regel voor Wireless Portable Devices om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Wireless Portable Devices (SSDP-Out)",
     "Description": "Uitgaande regel voor Wireless Portable Devices om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Wireless Portable Devices (UPnP-In)",
     "Description": "Binnenkomende regel voor Wireless Portable Devices om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wireless Portable Devices (UPnP-Out)",
     "Description": "Uitgaande regel voor Wireless Portable Devices om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Wireless Portable Devices (UPnPHost-Out)",
     "Description": "Uitgaande regel voor Wireless Portable Devices om het gebruik van UPnP (Universal Plug and Play) toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Sleutelbeheerservice (TCP-In)",
     "Description": "Binnenkomende regel voor de sleutelbeheerservice om computertelling en licentievereisten toe te staan. [TCP 1688]",
     "LocalPorts": "1688",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Sleutelbeheerservice (TCP-In)",
     "Description": "Binnenkomende regel voor de sleutelbeheerservice om computertelling en licentievereisten toe te staan. [TCP 1688]",
     "LocalPorts": "1688",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - SSDP (UDP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - SSDP (UDP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om het gebruik van SSDP (Simple Service Discovery Protocol) toe te staan. [UDP 1900]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - RTSP (TCP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om het gebruik van RTSP AV Control toe te staan. [TCP 554, TCP 8554-8558]",
     "LocalPorts": "554,8554,8555,8556,8557,8558",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - RTSP (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om het gebruik van WMDRM-ND en RTSP AV Control [TCP] toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - qWave (UDP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [UDP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - qWave (UDP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [UDP 2177]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - qWave (TCP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [TCP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - qWave (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om het gebruik van de Quality Windows Audio Video Experience-service toe te staan. [TCP 2177]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - HTTP-streaming (TCP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om mediastreaming via HTTP toe te staan. [TCP 10244]",
     "LocalPorts": "10244",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - XSP (TCP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om terminalsessies toe te staan. [TCP 3390]",
     "LocalPorts": "3390",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - WMDRM-ND/RTP/RTCP (UDP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om WMDRM-ND en RTP/RTCP AV-streaming toe te staan. [UDP 7777-7781, UDP 5004-5005, UDP 50004-50013]",
     "LocalPorts": "7777,7778,7779,7780,7781,5004,5005,50004,50005,50006,50007,50008,50009,50010,50011,50012,50013",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - WMDRM-ND/RTP/RTCP (UDP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om WMDRM-ND en RTP/RTCP AV Streaming toe te staan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - Service (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders zodat extenders de computer kunnen vinden en verbinding kunnen maken. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - apparaat inrichten (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om netwerkverkeer voor het inrichten van apparaten toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - mediastreaming (TCP-In)",
     "Description": "Binnenkomende regel voor Media Center Extenders om UPnP-verkeer voor mediastreaming toe te staan. [TCP 2869]",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - mediastreaming (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om UPnP-verkeer voor mediastreaming toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - apparaatvalidering (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om netwerkverkeer voor apparaatvalidering toe te staan. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Media Center Extenders - mediastreaming (UDP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om mediastreamingapparaten toe te staan te reageren op een SSDP-zoekactie. [UDP 1900]",
     "LocalPorts": "1900",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Media Center Extenders - UPnP (TCP-Out)",
     "Description": "Uitgaande regel voor Media Center Extenders om UPnP-apparaten toe te staan apparaatgegevens te verzenden. [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (HTTP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via HTTP wordt toegestaan. [TCP 10246]",
     "LocalPorts": "10246",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (HTTP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via HTTP wordt toegestaan. [TCP 10246]",
     "LocalPorts": "10246",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (HTTP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via HTTP wordt toegestaan. [TCP 10246]",
     "LocalPorts": "10246",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTCP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTCP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTCP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTP-Streaming-Uit)",
     "Description": "Regel voor uitgaande verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTP-Streaming-Uit)",
     "Description": "Regel voor uitgaande verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTP-Streaming-Uit)",
     "Description": "Regel voor uitgaande verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [UDP]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTSP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [TCP 23554, 23555, 23556]",
     "LocalPorts": "23554,23555,23556",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTSP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [TCP 23554, 23555, 23556]",
     "LocalPorts": "23554,23555,23556",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Streaming-server voor Op apparaat weergeven (RTSP-Streaming-In)",
     "Description": "Regel voor binnenkomende verbindingen van de server voor Op apparaat weergeven waarmee streaming via RTSP en RTP wordt toegestaan. [TCP 23554, 23555, 23556]",
     "LocalPorts": "23554,23555,23556",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "SSDP Discovery voor Op apparaat weergeven (UDP-In)",
     "Description": "Regel voor binnenkomende verbindingen om detectie van apparaten voor Op apparaat weergeven via SSDP toe te staan",
     "LocalPorts": "Ply2Disc,",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "UPnP-gebeurtenissen voor Op apparaat weergeven (TCP-In)",
     "Description": "Regel voor binnenkomende verbindingen om de ontvangst van UPnP-gebeurtenissen vanaf apparaten voor Op apparaat weergeven toe te staan",
     "LocalPorts": "2869",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Functionaliteit voor Op apparaat weergeven (qWave-UDP-In)",
     "Description": "Regel voor binnenkomende verbindingen van de functionaliteit voor Op apparaat weergeven waarmee het gebruik van de service Quality Windows Audio-Video Experience wordt toegestaan. [UDP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Functionaliteit voor Op apparaat weergeven (qWave-UDP-Uit)",
     "Description": "Regel voor uitgaande verbindingen van de functionaliteit voor Op apparaat weergeven waarmee het gebruik van de service Quality Windows Audio-Video Experience wordt toegestaan. [UDP 2177]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Functionaliteit voor Op apparaat weergeven (qWave-TCP-In)",
     "Description": "Regel voor binnenkomende verbindingen van de functionaliteit voor Op apparaat weergeven waarmee het gebruik van de service Quality Windows Audio-Video Experience wordt toegestaan. [TCP 2177]",
     "LocalPorts": "2177",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Functionaliteit voor Op apparaat weergeven (qWave-TCP-Uit)",
     "Description": "Regel voor uitgaande verbindingen van de functionaliteit voor Op apparaat weergeven waarmee het gebruik van de service Quality Windows Audio-Video Experience wordt toegestaan. [TCP 2177]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Bestands- en printerdeling via SMBDirect (iWARP-In)",
     "Description": "Binnenkomende regel voor Bestands- en printerdeling via SMBDirect voor het toestaan van iWARP [TCP 5445]",
     "LocalPorts": "5445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern bureaublad - Gebruikersmodus (TCP-In)",
     "Description": "Binnenkomende regel voor de Remote Desktop-service om RDP-verkeer toe te staan. [TCP 3389]",
     "LocalPorts": "3389",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern bureaublad - Gebruikersmodus (UDP-In)",
     "Description": "Regel voor binnenkomende verbindingen voor de service Extern bureaublad om RDP-verkeer toe te staan. [TCP 3389]",
     "LocalPorts": "3389",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "Extern bureaublad - Schaduw (TCP-In)",
     "Description": "Binnenkomende regel voor de Extern bureaublad-services om het maken van een schaduwkopie van een bestaande Extern bureaublad-sessie toe te staan. (TCP-In)",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern bureaublad - (TCP-WS-In)",
     "Description": "Binnenkomende regel voor de Extern bureaublad-service om RDP-verkeer via WebSocket toe te staan. [TCP 3387]",
     "LocalPorts": "3387",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Extern bureaublad - (TCP-WSS-In)",
     "Description": "Binnenkomende regel voor de Extern bureaublad-service om RDP-verkeer via beveiligde WebSocket toe te staan. [TCP 3392]",
     "LocalPorts": "3392",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "BranchCache Content Retrieval (HTTP-In)",
     "Description": "Inbound rule for BranchCache to allow data transfer using HTTP [TCP 80]",
     "LocalPorts": "80",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "BranchCache Content Retrieval (HTTP-Out)",
     "Description": "Outbound rule for BranchCache to allow data transfer using HTTP [TCP 80]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "BranchCache Peer Discovery (WSD-In)",
     "Description": "Inbound rule for BranchCache to allow peer discovery [UDP 3702]",
     "LocalPorts": "3702",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "BranchCache Peer Discovery (WSD-Out)",
     "Description": "Outbound rule for BranchCache to allow peer discovery [UDP 3702]",
     "LocalPorts": "*",
-    "Protocol": 17,
-    "LogEntries": null
+    "Protocol": 17
   },
   {
     "Name": "BranchCache Hosted Cache Server (HTTP-In)",
     "Description": "Inbound rule for BranchCache to allow communication between a hosted cache and its clients [TCP]",
     "LocalPorts": "80,443",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "BranchCache Hosted Cache Server(HTTP-Out)",
     "Description": "Outbound rule for BranchCache to allow communication between a hosted cache and its clients [TCP]",
     "LocalPorts": "80,443",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "BranchCache Hosted Cache Client (HTTP-Out)",
     "Description": "Outbound rule for BranchCache to allow connection to a hosted cache server [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@netlogon.dll,-1003",
     "Description": "@netlogon.dll,-1006",
     "LocalPorts": "445",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "@netlogon.dll,-1008",
     "Description": "@netlogon.dll,-1009",
     "LocalPorts": "RPC,",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Windows Mediaspeler Network Sharing-service (HTTP-Streaming-In)",
     "Description": "Binnenkomende regel voor de Windows Mediaspeler Network Sharing-service voor het toestaan van mediastreaming via HTTP. [TCP 10245]",
     "LocalPorts": "10245",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
   },
   {
     "Name": "Cloud-id (TCP-out)",
     "Description": "Uitgaande regel voor het toestaan van de Microsoft-Cloud identity NT-Service (cloudidsvc) om netwerkaanvragen te maken die nodig zijn voor de functionaliteit [TCP]",
     "LocalPorts": "*",
-    "Protocol": 6,
-    "LogEntries": null
+    "Protocol": 6
+  },
+  {
+    "Name": "testing wpf1",
+    "Description": "blocking rdp",
+    "LocalPorts": "3389",
+    "Protocol": 3389
   }
 ]

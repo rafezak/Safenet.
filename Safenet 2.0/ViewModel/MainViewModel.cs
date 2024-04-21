@@ -39,7 +39,15 @@ namespace Safenet_2._0.ViewModel
             //load tips from JSON DB
             _dal.LoadTips();
 
-           //load tips van JSON DB
+            Rules = _dal.LoadRules();
+
+            if (Rules == null)
+            {
+                // If Rules collection is null, create a new instance
+                Rules = new ObservableCollection<Port>();
+            }
+
+            //load tips van JSON DB
             ObservableCollection<Tip> loadedtips = _dal.LoadTips();
             Tips = loadedtips ?? new ObservableCollection<Tip>();
 
@@ -60,11 +68,20 @@ namespace Safenet_2._0.ViewModel
 
             };
 
+            if (Rules == null)
+            {
+                Rules = new ObservableCollection<Port>();
+            
+            }
+                
+            //add new rule to collection
             Rules.Add(newRule);
+            
+            //Save rules to JSON database
             SaveRules();
 
             //Create firewall rule
-            _dal.CreateFirewallRule(newRule);
+            //_dal.CreateFirewallRule(newRule);
 
         }
         //seperating concerns

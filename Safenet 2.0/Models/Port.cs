@@ -9,13 +9,13 @@ namespace Safenet_2._0.Models
 {
     public class Port
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string LocalPorts { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public string? LocalPorts { get; set; }
         public int Protocol {  get; set; }
 
         //to log history
-        public List<LogEntry> LogEntries { get; set; }
+        //public List<LogEntry>? LogEntries { get; set; }
 
     }
 }
