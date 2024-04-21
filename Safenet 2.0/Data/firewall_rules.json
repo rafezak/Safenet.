@@ -1,5 +1,19 @@
 [
   {
+    "Name": "Microsoft Edge (mDNS-In)",
+    "Description": "Binnenkomende regel voor Microsoft Edge om mDNS-verkeer toe te staan.",
+    "LocalPorts": "5353",
+    "Protocol": 17,
+    "LogEntries": null
+  },
+  {
+    "Name": "Google Chrome (mDNS-In)",
+    "Description": "Inkomende regel zodat Google Chrome mDNS-verkeer toestaat.",
+    "LocalPorts": "5353",
+    "Protocol": 17,
+    "LogEntries": null
+  },
+  {
     "Name": "purpleon_global",
     "Description": null,
     "LocalPorts": null,
@@ -70,13 +84,6 @@
     "LogEntries": null
   },
   {
-    "Name": "Google Chrome (mDNS-In)",
-    "Description": "Inkomende regel zodat Google Chrome mDNS-verkeer toestaat.",
-    "LocalPorts": "5353",
-    "Protocol": 17,
-    "LogEntries": null
-  },
-  {
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
@@ -88,13 +95,6 @@
     "Description": null,
     "LocalPorts": "*",
     "Protocol": 6,
-    "LogEntries": null
-  },
-  {
-    "Name": "Microsoft Edge (mDNS-In)",
-    "Description": "Binnenkomende regel voor Microsoft Edge om mDNS-verkeer toe te staan.",
-    "LocalPorts": "5353",
-    "Protocol": 17,
     "LogEntries": null
   },
   {

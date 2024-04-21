@@ -9,12 +9,14 @@ using System.Text.Json; // JSON Sterialization
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Windows;
+using System.Text.Json.Serialization;
 
 namespace Safenet_2._0.Data
 {
     public class DataAccess
     {
         private const string FilePathFW = "C:\\Users\\Rachel\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\firewall_rules.json";
+        private const string FilePathTips = "C:\\Users\\Rachel\\source\\repos\\rafezak\\Safenet\\Safenet 2.0\\Data\\SecurityTips.json";
 
         #region Firewall-Ports
 
@@ -107,6 +109,26 @@ namespace Safenet_2._0.Data
                 MessageBox.Show("Failed to delete firewall rule: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
+        #endregion
+
+
+        #region read tips from json
+
+        public ObservableCollection<Tip> LoadTips()
+        {
+            try
+            {
+                string json = File.ReadAllText(FilePathTips);
+                return JsonSerializer.Deserialize<ObservableCollection<Tip>>(json);
+            }
+            catch (FileNotFoundException)
+            {
+                // If the file is not found, return an empty collection
+                return new ObservableCollection<Tip>();
+            }
+        }
+
 
         #endregion
 

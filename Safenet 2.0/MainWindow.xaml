@@ -62,15 +62,16 @@
                             
                         </DataGrid.Columns>
                     </DataGrid>
-                    <Button x:Name="EditFirewall_Click" Margin="718,10,10,14000" Content="Edit" Click="EditFirewall_Click_1" Height="40" Background="Beige"> </Button>
-                    <StackPanel x:Name="Buttonpanel" Orientation="Vertical" Margin="130,-142,0,0">
-
-                        
-                        <DataGrid x:Name="Buttongrid" ItemsSource="{Binding}" Height="167" Margin="2000,0,0,0" />
-
-                    </StackPanel>
-
-                </Grid>
+                        <Grid>
+                            <Button x:Name="EditFirewall_Click" Margin="687,10,10,14000" Content="Create Rule" Click="EditFirewall_Click_1" Height="40" Background="Beige"> </Button>
+                        </Grid>
+                        <Grid>
+                            <Button x:Name="DeleteFirewallRule" Margin="686,60,10,13950" Content="Delete Rule" Click="DeleteFirewallRule_Click" Height="40" Background="red" Foreground="White"></Button>
+                        </Grid>
+                        <StackPanel x:Name="Buttonpanel" Orientation="Vertical" Margin="130,-142,0,0">
+                            <DataGrid x:Name="Buttongrid" ItemsSource="{Binding}" Height="167" Margin="2000,0,0,0" />
+                        </StackPanel>
+                    </Grid>
               </ScrollViewer>
             </TabItem>
             <TabItem Header="Advanced" Background="#E3E1D9">
