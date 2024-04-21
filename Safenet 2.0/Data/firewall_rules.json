@@ -1,27 +1,27 @@
 [
   {
-    "Name": "Microsoft Edge (mDNS-In)",
-    "Description": "Binnenkomende regel voor Microsoft Edge om mDNS-verkeer toe te staan.",
-    "LocalPorts": "5353",
-    "Protocol": 17
-  },
-  {
     "Name": "Google Chrome (mDNS-In)",
     "Description": "Inkomende regel zodat Google Chrome mDNS-verkeer toestaat.",
     "LocalPorts": "5353",
     "Protocol": 17
   },
   {
-    "Name": "purpleon_global",
+    "Name": "PURPLE.cefsharp.browsersubprocess",
     "Description": null,
     "LocalPorts": null,
     "Protocol": 256
   },
   {
-    "Name": "PurpleBox",
+    "Name": "Dropbox",
     "Description": null,
-    "LocalPorts": null,
-    "Protocol": 256
+    "LocalPorts": "17500",
+    "Protocol": 17
+  },
+  {
+    "Name": "Dropbox",
+    "Description": null,
+    "LocalPorts": "17500-17510",
+    "Protocol": 6
   },
   {
     "Name": "Brave (mDNS-In)",
@@ -57,13 +57,13 @@
     "Name": "PlateUp!",
     "Description": null,
     "LocalPorts": "*",
-    "Protocol": 6
+    "Protocol": 17
   },
   {
-    "Name": "Microsoft Edge (mDNS-In)",
-    "Description": "Binnenkomende regel voor Microsoft Edge om mDNS-verkeer toe te staan.",
-    "LocalPorts": "5353",
-    "Protocol": 17
+    "Name": "PlateUp!",
+    "Description": null,
+    "LocalPorts": "*",
+    "Protocol": 6
   },
   {
     "Name": "WhatsApp",
@@ -898,6 +898,18 @@
     "Description": "Kanban Tasker",
     "LocalPorts": null,
     "Protocol": 256
+  },
+  {
+    "Name": "\u03BCTorrent (UDP-In)",
+    "Description": "Allow \u03BCTorrent network traffic with Edge Traversal",
+    "LocalPorts": "*",
+    "Protocol": 17
+  },
+  {
+    "Name": "\u03BCTorrent (TCP-In)",
+    "Description": "Allow \u03BCTorrent network traffic with Edge Traversal",
+    "LocalPorts": "*",
+    "Protocol": 6
   },
   {
     "Name": "S4MP Launcher.exe",

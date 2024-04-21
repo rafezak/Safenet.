@@ -176,6 +176,8 @@ namespace Safenet_2._0
                 MessageBox.Show("Please select a rule to delete.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
+            _dal.Refresh();
+
         }
 
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)

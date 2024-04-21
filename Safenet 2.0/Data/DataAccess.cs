@@ -163,7 +163,10 @@ namespace Safenet_2._0.Data
                 MessageBox.Show("Failed to delete firewall rule: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }  
         }
-
+        public void Refresh()
+        {
+            LoadRules();
+        }
 
         #endregion
 
