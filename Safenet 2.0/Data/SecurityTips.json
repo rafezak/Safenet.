@@ -1,27 +1,27 @@
 ﻿[
   {
     "Subject": "Password",
-    "Question": "Password Policy Standards",
-    "Description": "Minimum of 12 characters with uppercase and lowercase characters that should also include special characters and numbers"
+    "Question": "Password Policy standards",
+    "Description": "Minimum of 12 characters with Uppercase and Lowercase characters that should also include special characters and numbers"
   },
   {
     "Subject": "Updates",
-    "Question": "Keeping Your Computer Up to Date",
+    "Question": "Keeping your computer up to date",
     "Description": "Always keep your computer up to date."
   },
   {
     "Subject": "Security",
-    "Question": "Firewall Usage",
+    "Question": "Firewall usage",
     "Description": "Use a firewall."
   },
   {
     "Subject": "Antivirus",
-    "Question": "Use an Antivirus",
+    "Question": "Use an antivirus",
     "Description": "Use antivirus software."
   },
   {
     "Subject": "Scamming",
-    "Question": "Phishing Emails",
+    "Question": "Phishing emails",
     "Description": "Be cautious of phishing emails."
   },
   {
@@ -37,36 +37,109 @@
   {
     "Subject": "Authentication",
     "Question": "2 Factor Authentication",
-    "Description": "Use 2 factor authentication."
+    "Description": "Use 2 Factor Authentication."
+  },
+  {
+    "Subject": "Software Updates",
+    "Question": "Keep software up to date",
+    "Description": "Regularly update all software to patch security vulnerabilities."
+  },
+  {
+    "Subject": "Strong Passwords",
+    "Question": "Create strong passwords",
+    "Description": "Use a combination of letters, numbers, and special characters for strong passwords."
+  },
+  {
+    "Subject": "Multi-factor Authentication",
+    "Question": "Enable multi-factor authentication",
+    "Description": "Add an extra layer of security by enabling multi-factor authentication."
+  },
+  {
+    "Subject": "Data Backup",
+    "Question": "Regularly backup important data",
+    "Description": "Create regular backups of important data to prevent data loss."
+  },
+  {
+    "Subject": "Phishing Awareness",
+    "Question": "Be aware of phishing attacks",
+    "Description": "Educate yourself about common phishing techniques to avoid falling for scams."
+  },
+  {
+    "Subject": "Secure Wi-Fi",
+    "Question": "Secure your Wi-Fi network",
+    "Description": "Use strong passwords and encryption protocols to secure your Wi-Fi network."
+  },
+  {
+    "Subject": "Secure File Sharing",
+    "Question": "Use secure file sharing methods",
+    "Description": "Encrypt files before sharing them and use secure file sharing platforms."
+  },
+  {
+    "Subject": "Social Engineering",
+    "Question": "Beware of social engineering attacks",
+    "Description": "Be cautious of suspicious requests for personal information or credentials."
+  },
+  {
+    "Subject": "Firewall Configuration",
+    "Question": "Configure firewall settings",
+    "Description": "Customize firewall settings to allow only necessary network traffic."
+  },
+  {
+    "Subject": "Secure Browsing",
+    "Question": "Use secure web browsers",
+    "Description": "Choose web browsers with strong security features and keep them updated."
+  },
+  {
+    "Subject": "Email Encryption",
+    "Question": "Encrypt sensitive emails",
+    "Description": "Use email encryption tools to protect sensitive information in emails."
+  },
+  {
+    "Subject": "Secure Mobile Devices",
+    "Question": "Secure your mobile devices",
+    "Description": "Set up passcodes, use biometric authentication, and install security apps on your mobile devices."
+  },
+  {
+    "Subject": "Regular Security Audits",
+    "Question": "Conduct regular security audits",
+    "Description": "Periodically review and assess your security measures to identify vulnerabilities."
+  },
+  {
+    "Subject": "Employee Training",
+    "Question": "Provide security training to employees",
+    "Description": "Educate employees about security best practices and potential threats."
+
   },
   {
     "Subject": "Safenet",
     "Question": "Safenet Tips and Tricks",
-    "Description": "Enable Safenet on startup to instantly be safe."
+    "Description": "Enable Safenet on startup to instantly be safe"
   },
   {
     "Subject": "Safenet",
     "Question": "Safenet Tips and Tricks",
-    "Description": "Use the Secure IT button as a last resort if you feel suspicious."
+    "Description": "Use the Secure IT button as a last resort if you feel suspicious"
   },
   {
     "Subject": "Safenet",
     "Question": "Safenet Tips and Tricks",
-    "Description": "Use the Port Block and App Block features to specific block ports and apps."
+    "Description": "Use the Port Block and App Block features to specific block ports and apps"
   },
   {
     "Subject": "Safenet",
     "Question": "Safenet Tips and Tricks",
-    "Description": "Use the Darkmode feature to protect your eyes when working in a dark space."
+    "Description": "Use the Darkmode feature to protect your eyes when working in a dark space"
   },
   {
     "Subject": "Safenet",
     "Question": "Safenet Tips and Tricks",
-    "Description": "Use the Support tab to get help and contact us whenever you have questions."
+    "Description": "Use the Support tab to get help and contact us whenever you have questions"
   },
   {
     "Subject": "Safenet",
     "Question": "Safenet Tips and Tricks",
-    "Description": "Do research on ports that are essential or generally safe to use before disabling them."
+    "Description": "Do research on ports that are essential or generally safe to use before disabling them"
   }
+
+
 ]
