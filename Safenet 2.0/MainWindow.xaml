@@ -3,46 +3,141 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Safenet_2._0"
+        xmlns:local="clr-namespace:Safenet_2._0" 
+        xmlns:viewmodel="clr-namespace:Safenet_2._0.ViewModel"
         mc:Ignorable="d"
         Height="450" Width="800"
+        Background="#C7C8CC"
+        
         Title="MainWindow"  ResizeMode="NoResize">
 
-    <Grid x:Name="mainwindowgrid" Background="White">
-        <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,10,0,372" Width="118"/>
-        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="647,10,44,368" />
-        <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,8,-2,373" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer." />
-        <TabControl Margin="0,78,0,-31">
-            <TabItem Header="General">
-                <!-- Content for General Tab -->
-                <TextBlock Text="General Tips and Tricks" FontSize="18" Margin="0,20,40,20"/>
+    <Grid x:Name="mainwindowgrid" Background="#C7C8CC">
+
+        <Rectangle Margin="0,0,0,332" Fill="#C7C8CC" />
+        <TextBlock Text="SafeИet" FontSize="24" HorizontalAlignment="Left" Margin="10,-330,0,0" Width="96" Background="#B4B4B8" TextWrapping="Wrap" Height="35"  />
+        <Image Source="C:\Users\Rafezak\source\repos\SafeNet\Resources\questionmark.png" Margin="744,12,-2,369" ToolTip="SecureIT is a program that closes all ports on your computer to prevent hackers from accessing your computer."  />
+        <Button Content="Secure IT" Padding="0,0,0,0" FontSize="18" Click="SecureIT_Click" Margin="632,10,59,368"  Background="#B4B4B8"/>
+
+        <TabControl Margin="0,78,0,-31" Background="#F2EFE5" x:Name="MainWindowTabControl">
+            <TabItem Header="General" Background="#E3E1D9" >
+                <ScrollViewer>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <!-- Search Bar -->
+                        <TextBox Grid.Row="0" x:Name="searchTextBox" Margin="473,10,178,10"  TextChanged="SearchTextBox_TextChanged" />
+                        <Button Content="Search" Margin="604,8,85,8" Click="SearchButton_Click"/>
+                        <!-- ListBox of Tips -->
+                        <ListBox Grid.Row="1" x:Name="TipsListBox" ItemsSource="{Binding FilteredTips}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <!-- Question -->
+                                        <TextBlock Text="Question" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Question}" Margin="0,0,0,5" />
+
+                                        <!-- Description -->
+                                        <TextBlock Text="Description:" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Margin="0,0,0,5" />
+
+                                        <!-- Subject Tag -->
+                                        <Border Background="LightGray" CornerRadius="5" Padding="5" Margin="0,0,0,5">
+                                            <TextBlock Text="{Binding Subject}" />
+                                        </Border>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+                </ScrollViewer>
             </TabItem>
             <TabItem Header="Protection">
-                <!-- Content for Protection Tab -->
+                <ScrollViewer>
+                    <Grid x:Name="FirewallRuleGrid">
+                        <DataGrid x:Name="FWRulesGrid" SelectionMode="Single" AutoGenerateColumns="False" Margin="0,0,340,0" SelectionChanged="FWRulesGrid_SelectionChanged">
+                            <DataGrid.Columns >
+                                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                                <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>
+                                <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}"/>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Grid>
+                            <Button x:Name="EditFirewall_Click" Margin="687,10,10,14000" Content="Create Rule" Click="EditFirewall_Click_1" Height="40" Background="Beige"></Button>
+                        </Grid>
+                        <Grid>
+                            <Button x:Name="DeleteFirewallRule" Margin="686,60,10,13950" Content="Delete Rule" Click="DeleteFirewallRule_Click" Height="40" Background="red" Foreground="White"></Button>
+                        </Grid>
+                        <StackPanel x:Name="Buttonpanel" Orientation="Vertical" Margin="130,-142,0,0">
+                            <DataGrid x:Name="Buttongrid" ItemsSource="{Binding}" Height="167" Margin="2000,0,0,0" />
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Advanced" Background="#E3E1D9">
+
+
                 <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="24*"/>
+                        <ColumnDefinition Width="199*"/>
+                        <ColumnDefinition Width="571*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock FontSize="18" Margin="20,20,20,20" Grid.ColumnSpan="3"><Run Text="Advanced Features"/><Run Text=" "/><Run Text=":"/></TextBlock>
+                    <Button Content="App Block" Padding="0,0,0,0" FontSize="18" Click="Appblock_Clicked" Margin="0,65,69,220" Width="114" Height="30" Background="#E3E1D9" Grid.Column="1" />
+                    <StackPanel Orientation="Vertical" x:Name="togglebuttonpanel" Margin="113,65,0,0" Visibility="Hidden" Grid.ColumnSpan="2" Grid.Column="1" />
+                    <DataGrid x:Name="toggledataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserSortColumns="False" Visibility="Hidden" Margin="41,42,363,139" Grid.Column="2"/>
 
-                    <DataGrid x:Name="dataGrid" Margin="0,0,452,0" AutoGenerateColumns="True" ItemsSource="{Binding}" />
-                    <StackPanel Orientation="Vertical" x:Name="Buttonpanel" Margin="0,24,30,0" />
-                    
+
+
+
+
+
+
                 </Grid>
+
             </TabItem>
-            <TabItem Header="Advanced">
-                <!-- Content for Privacy Tab -->
-                <TextBlock Text="Privacy Tips and Tricks" FontSize="18" Margin="20"/>
-            </TabItem>
-            <TabItem Header="Support">
-                <!-- Content for About Tab -->
-                <TextBlock Text="About SafeИet" FontSize="18" Margin="20"/>
+            <TabItem Header="Support" Background="#E3E1D9">
+
+                <ScrollViewer>
+                    <Grid>
+                        <TextBlock FontSize="18" Margin="10,10,30,30" Text="About SafeИet"/>
+                        <TextBlock Text="FAQ:" FontSize="25" Margin="20,40,20,0"/>
+                        <TextBlock Text="Q: What is SafeИet?" FontSize="14" Margin="20,77,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: SafeИet is a program that closes all ports on your computer to prevent hackers from accessing your computer." FontSize="14" Margin="20,97,20,-17"/>
+                        <TextBlock Text="Q: How do I use SafeИet?" FontSize="14" Margin="20,117,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Click the Secure IT button to secure your computer." FontSize="14" Margin="20,137,20,-17" />
+                        <TextBlock Text="Q: How do I block ports?" FontSize="14" Margin="20,157,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Click the Port Block button in the Advanced tab." FontSize="14" Margin="20,177,20,-17"/>
+                        <TextBlock Text="Q: How do I block apps?" FontSize="14" Margin="20,197,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Click the App Block button in the Advanced tab." FontSize="14" Margin="20,217,20,-17"/>
+                        <TextBlock Text="Q: How do I enable SafeИet on startup?" FontSize="14" Margin="20,237,20,-17" FontStyle="Italic"/>
+                        <TextBlock FontWeight="Bold" Text="A: Check the Enable SafeИet on Startup checkbox in the Settings tab." FontSize="14" Margin="20,260,20,-17"/>
+                        <TextBlock Text="Q: Does Safenet Fully secure my computer against threats?" FontSize="14" Margin="20,282,20,-17"/>
+                        <TextBlock FontWeight="Bold" Text="A: No, Safenet does not fully secure your computer against all threats. While it helps in closing ports &#xA; and preventing unauthorized access, it is important to have multiple layers of security measures in place, &#xA; such as using a firewall qnd antivirus software." FontSize="14" Margin="20,305,20,-17"/>
+                        <TextBlock Text="Email: Support@safenet.nl" Margin="25,400,0,2"/>
+                        <TextBlock Text="Contact us:" FontSize="20" Margin="20,365,20,-23"/>
+                        <TextBlock Text="Phone: 0118 999 881 999 119 72  53" Margin="225,400,0,0"/>
+                        <TextBlock Margin="0,500,0,0"/>
+                    </Grid>
+                </ScrollViewer>
+
+
             </TabItem>
 
-            <TabItem Header="Settings">
+            <TabItem Header="Settings" Background="#E3E1D9">
                 <!-- Content for Help Tab -->
                 <StackPanel>
-                <TextBlock Text="Settings" FontSize="18" Margin="20"/>
-                <CheckBox x:Name="checkBoxStartup" Content="Enable Safenet on Startup" Margin="20,20,0,0"/>
-                <CheckBox x:Name="checkBoxDarkmode" Content="Darkmode" Margin="20,20,0,0" Checked="Darkmode_switch"/>
+                    <TextBlock FontSize="18" Margin="20"><Run Text="Settings"/><Run Language="nl-nl" Text=":"/></TextBlock>
+                    <CheckBox x:Name="checkBoxStartup" Content="Enable Safenet on Startup" Margin="20,20,0,0"/>
+                    <CheckBox x:Name="checkBoxDarkmode" Content="Darkmode" Margin="20,20,0,0" Checked="Darkmode_switch"/>
                 </StackPanel>
             </TabItem>
         </TabControl>
+
     </Grid>
 </Window>

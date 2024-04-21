@@ -1,0 +1,72 @@
+﻿[
+  {
+    "Subject": "Password",
+    "Question": "Password Policy Standards",
+    "Description": "Minimum of 12 characters with uppercase and lowercase characters that should also include special characters and numbers"
+  },
+  {
+    "Subject": "Updates",
+    "Question": "Keeping Your Computer Up to Date",
+    "Description": "Always keep your computer up to date."
+  },
+  {
+    "Subject": "Security",
+    "Question": "Firewall Usage",
+    "Description": "Use a firewall."
+  },
+  {
+    "Subject": "Antivirus",
+    "Question": "Use an Antivirus",
+    "Description": "Use antivirus software."
+  },
+  {
+    "Subject": "Scamming",
+    "Question": "Phishing Emails",
+    "Description": "Be cautious of phishing emails."
+  },
+  {
+    "Subject": "Wi-Fi",
+    "Question": "Public Wi-Fi",
+    "Description": "Be cautious of public Wi-Fi."
+  },
+  {
+    "Subject": "VPN",
+    "Question": "Use a VPN",
+    "Description": "Use a VPN."
+  },
+  {
+    "Subject": "Authentication",
+    "Question": "2 Factor Authentication",
+    "Description": "Use 2 factor authentication."
+  },
+  {
+    "Subject": "Safenet",
+    "Question": "Safenet Tips and Tricks",
+    "Description": "Enable Safenet on startup to instantly be safe."
+  },
+  {
+    "Subject": "Safenet",
+    "Question": "Safenet Tips and Tricks",
+    "Description": "Use the Secure IT button as a last resort if you feel suspicious."
+  },
+  {
+    "Subject": "Safenet",
+    "Question": "Safenet Tips and Tricks",
+    "Description": "Use the Port Block and App Block features to specific block ports and apps."
+  },
+  {
+    "Subject": "Safenet",
+    "Question": "Safenet Tips and Tricks",
+    "Description": "Use the Darkmode feature to protect your eyes when working in a dark space."
+  },
+  {
+    "Subject": "Safenet",
+    "Question": "Safenet Tips and Tricks",
+    "Description": "Use the Support tab to get help and contact us whenever you have questions."
+  },
+  {
+    "Subject": "Safenet",
+    "Question": "Safenet Tips and Tricks",
+    "Description": "Do research on ports that are essential or generally safe to use before disabling them."
+  }
+]

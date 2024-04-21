@@ -44,7 +44,7 @@ namespace Safenet_2._0
             }
             else
             {
-                Content = new SafeNetApp();
+                Content = new MainWindow();
             }
         }
     }
