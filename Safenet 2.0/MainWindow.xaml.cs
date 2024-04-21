@@ -1,18 +1,14 @@
 ﻿using Safenet_2._0.Data;
+using Safenet_2._0.Models;
+using Safenet_2._0.ViewModel;
 using Safenet_2._0.Views;
 using System.Collections.ObjectModel;
 using System.Data;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace Safenet_2._0
 {
@@ -21,8 +17,14 @@ namespace Safenet_2._0
     /// </summary>
     public partial class MainWindow : Window
     {
-        //accessing DAL 
+        //connection to DAL 
         private DataAccess _dal;
+
+        //to check if a user is typing in the searchbar
+        
+
+        //connecting to viewmodel
+        private MainViewModel viewModel;
 
         //making sure that when 2nd window is closed that it goes back to the right tab.
         public int SelectedTabIndex { get; set; }
@@ -37,13 +39,15 @@ namespace Safenet_2._0
 
             //accessing DAL
             _dal = new DataAccess();
+            viewModel = new MainViewModel();
+            DataContext = viewModel;
 
             //loading in the lists
             ObservableCollection<Models.Port> rules = _dal.LoadRules();
             ObservableCollection<Models.Tip> tips = _dal.LoadTips();
 
             FWRulesGrid.ItemsSource = rules;
-
+            TipsListBox.ItemsSource = tips;
             #region grid layout linking
             portData = new System.Data.DataTable();
 
@@ -168,6 +172,32 @@ namespace Safenet_2._0
 
 
         }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Check if viewModel is not null
+            if (viewModel != null)
+            {
+                //get the text entered by user
+                string searchText = searchTextBox.Text.ToLower();
+
+                // Filter the tips based on the search text
+                viewModel.FilterTips(searchText);
+
+            }
+            else
+            {
+                // Handle the case when viewModel is null
+                
+            }
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string searchText = searchTextBox.Text.ToLower();
+            viewModel.FilterTips(searchText);
+        }
+
 
 
     }

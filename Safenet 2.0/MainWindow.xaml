@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Safenet_2._0"
+        xmlns:local="clr-namespace:Safenet_2._0" 
+        xmlns:viewmodel="clr-namespace:Safenet_2._0.ViewModel"
         mc:Ignorable="d"
         Height="450" Width="800"
         Background="#C7C8CC"
@@ -21,49 +22,52 @@
             <TabItem Header="General" Background="#E3E1D9" >
                 <ScrollViewer>
                     <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="29*"/>
-                            <ColumnDefinition Width="230*"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="General Tips and Tricks:" FontSize="18" Margin="0,20,40,20" FontWeight="Bold" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="1. Always keep your computer up to date." FontSize="14" Margin="0,50,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="2. Use a strong password." FontSize="14" Margin="0,70,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="3. Use a firewall." FontSize="14" Margin="0,90,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="4. Use antivirus software." FontSize="14" Margin="0,110,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="5. Be cautious of phishing emails." FontSize="14" Margin="0,130,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="6. Be cautious of public Wi-Fi." FontSize="14" Margin="0,150,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="7. Use a VPN." FontSize="14" Margin="0,170,40,20" Grid.ColumnSpan="2"/>
-                        <TextBlock Text="8. Use a 2 Factor Authentication." FontSize="14" Margin="0,190,40,20" Grid.ColumnSpan="2"/>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
 
-                        <TextBlock Text="Safenet tips and tricks:" FontSize="18" Margin="228,20,40,20" FontWeight="Bold" Grid.Column="1"/>
-                        <TextBlock Text="1. Enable Safenet on startup to instantly be safe" FontSize="11" Margin="238,50,40,20" Grid.Column="1"/>
-                        <TextBlock Text="2. Use the Secure IT button as a last resort if you feel suspicious" FontSize="11" Margin="238,70,40,20" Grid.Column="1"/>
-                        <TextBlock Text="3. Use the Port Block and App Block features to  specific block ports and apps" FontSize="11" Margin="238,90,40,20" Grid.Column="1"/>
-                        <TextBlock Text="4. Use the Darkmode feature to protect your eyes when working in a dark space" FontSize="11" Margin="238,110,40,20" Grid.Column="1"/>
-                        <TextBlock Text="5. Use the Support tab to get help and contact us whenever you have questions" FontSize="11" Margin="238,130,40,20" Grid.Column="1"/>
-                        <TextBlock Text="6. Do research on ports that are essential or generally safe to use before disabling them" FontSize="10" Margin="238,150,40,20" Grid.Column="1"/>
-                        <TextBlock Text="" FontSize="10" Margin="10,224,23,10" Grid.ColumnSpan="2" x:Name="Responsetext"/>
+                        <!-- Search Bar -->
+                        <TextBox Grid.Row="0" x:Name="searchTextBox" Margin="473,10,178,10"  TextChanged="SearchTextBox_TextChanged" />
+                        <Button Content="Search" Margin="604,8,85,8" Click="SearchButton_Click"/>
+                        <!-- ListBox of Tips -->
+                        <ListBox Grid.Row="1" x:Name="TipsListBox" ItemsSource="{Binding FilteredTips}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <!-- Question -->
+                                        <TextBlock Text="Question" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Question}" Margin="0,0,0,5" />
 
+                                        <!-- Description -->
+                                        <TextBlock Text="Description:" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Margin="0,0,0,5" />
 
-
-
+                                        <!-- Subject Tag -->
+                                        <Border Background="LightGray" CornerRadius="5" Padding="5" Margin="0,0,0,5">
+                                            <TextBlock Text="{Binding Subject}" />
+                                        </Border>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
                     </Grid>
                 </ScrollViewer>
             </TabItem>
             <TabItem Header="Protection">
-               <ScrollViewer>
-                <Grid x:Name="FirewallRuleGrid" >
-                    <DataGrid x:Name="FWRulesGrid" AutoGenerateColumns="False" Margin="0,0,340,0">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
-                            <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
-                            <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>
-                            <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}"/>
-                            
-                        </DataGrid.Columns>
-                    </DataGrid>
+                <ScrollViewer>
+                    <Grid x:Name="FirewallRuleGrid" >
+                        <DataGrid x:Name="FWRulesGrid" AutoGenerateColumns="False" Margin="0,0,340,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                                <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>
+                                <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}"/>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
                         <Grid>
-                            <Button x:Name="EditFirewall_Click" Margin="687,10,10,14000" Content="Create Rule" Click="EditFirewall_Click_1" Height="40" Background="Beige"> </Button>
+                            <Button x:Name="EditFirewall_Click" Margin="687,10,10,14000" Content="Create Rule" Click="EditFirewall_Click_1" Height="40" Background="Beige"></Button>
                         </Grid>
                         <Grid>
                             <Button x:Name="DeleteFirewallRule" Margin="686,60,10,13950" Content="Delete Rule" Click="DeleteFirewallRule_Click" Height="40" Background="red" Foreground="White"></Button>
@@ -72,7 +76,7 @@
                             <DataGrid x:Name="Buttongrid" ItemsSource="{Binding}" Height="167" Margin="2000,0,0,0" />
                         </StackPanel>
                     </Grid>
-              </ScrollViewer>
+                </ScrollViewer>
             </TabItem>
             <TabItem Header="Advanced" Background="#E3E1D9">
 
