@@ -56,9 +56,9 @@
             </TabItem>
             <TabItem Header="Protection">
                 <ScrollViewer>
-                    <Grid x:Name="FirewallRuleGrid" >
-                        <DataGrid x:Name="FWRulesGrid" AutoGenerateColumns="False" Margin="0,0,340,0">
-                            <DataGrid.Columns>
+                    <Grid x:Name="FirewallRuleGrid">
+                        <DataGrid x:Name="FWRulesGrid" SelectionMode="Single" AutoGenerateColumns="False" Margin="0,0,340,0" SelectionChanged="FWRulesGrid_SelectionChanged">
+                            <DataGrid.Columns >
                                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                                 <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
                                 <DataGridTextColumn Header="LocalPorts" Binding="{Binding LocalPorts}"/>

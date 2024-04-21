@@ -24,24 +24,6 @@
     "Protocol": 256
   },
   {
-    "Name": "PURPLE.cefsharp.browsersubprocess",
-    "Description": null,
-    "LocalPorts": null,
-    "Protocol": 256
-  },
-  {
-    "Name": "Dropbox",
-    "Description": null,
-    "LocalPorts": "17500",
-    "Protocol": 17
-  },
-  {
-    "Name": "Dropbox",
-    "Description": null,
-    "LocalPorts": "17500-17510",
-    "Protocol": 6
-  },
-  {
     "Name": "Brave (mDNS-In)",
     "Description": "Inkomende regel zodat Brave mDNS-verkeer toestaat.",
     "LocalPorts": "5353",
@@ -70,12 +52,6 @@
     "Description": "Microsoft Store",
     "LocalPorts": null,
     "Protocol": 256
-  },
-  {
-    "Name": "PlateUp!",
-    "Description": null,
-    "LocalPorts": "*",
-    "Protocol": 17
   },
   {
     "Name": "PlateUp!",
@@ -922,18 +898,6 @@
     "Description": "Kanban Tasker",
     "LocalPorts": null,
     "Protocol": 256
-  },
-  {
-    "Name": "\u03BCTorrent (UDP-In)",
-    "Description": "Allow \u03BCTorrent network traffic with Edge Traversal",
-    "LocalPorts": "*",
-    "Protocol": 17
-  },
-  {
-    "Name": "\u03BCTorrent (TCP-In)",
-    "Description": "Allow \u03BCTorrent network traffic with Edge Traversal",
-    "LocalPorts": "*",
-    "Protocol": 6
   },
   {
     "Name": "S4MP Launcher.exe",
@@ -4180,11 +4144,5 @@
     "Description": "Uitgaande regel voor het toestaan van de Microsoft-Cloud identity NT-Service (cloudidsvc) om netwerkaanvragen te maken die nodig zijn voor de functionaliteit [TCP]",
     "LocalPorts": "*",
     "Protocol": 6
-  },
-  {
-    "Name": "23wedasawd",
-    "Description": "awdawdaw",
-    "LocalPorts": "11234",
-    "Protocol": 21
   }
 ]

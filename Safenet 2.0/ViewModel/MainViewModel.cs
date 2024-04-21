@@ -10,6 +10,7 @@ using System.DirectoryServices;
 using NetFwTypeLib;
 using System.Windows;
 using System.ComponentModel;
+using System.Data;
 
 namespace Safenet_2._0.ViewModel
 {
@@ -18,7 +19,7 @@ namespace Safenet_2._0.ViewModel
         private DataAccess _dal;
         private ObservableCollection<Tip> filteredTips;
 
-
+        public Port SelectedPort { get; set; }
         public ObservableCollection<Port> Rules { get; set; }
         public ObservableCollection<Tip> Tips { get; set; }
 
@@ -76,27 +77,42 @@ namespace Safenet_2._0.ViewModel
                 
             //add new rule to collection
             Rules.Add(newRule);
-            
-            //Save rules to JSON database
-            SaveRules();
 
-            //Create firewall rule
+            //Save rules to JSON database
+            AddNewRule();
+
+            //Create firewall rule - turned off for safety
             //_dal.CreateFirewallRule(newRule);
 
         }
+
         //seperating concerns
+
+        private void AddNewRule()
+        {
+            _dal.AddNewRule(Rules);
+        }
         private void SaveRules()
         {
             _dal.SaveRules(Rules);
         }
 
-        public void RemoveRule(Port port)
+/*        public void RemoveRule(Port port)
         {
-            Rules.Remove(port);
-            SaveRules();
+            if (Rules.Contains(port))
+            {
+                Rules.Remove(port);
+                _dal.SaveAllFirewallRulesToJSON();
+                SaveRules();
+            }
+            else
+            {
+                MessageBox.Show("Rule not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
 
+            //turned off for safety
             //_dal.DeleteFirewallRule(port);
-        }
+        }*/
 
 
         public ObservableCollection<Tip> FilteredTips

@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Windows;
 using System.Text.Json.Serialization;
+using System.Data;
 
 namespace Safenet_2._0.Data
 {
@@ -46,6 +47,30 @@ namespace Safenet_2._0.Data
         {
             string json = JsonSerializer.Serialize(rules, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(GetFilePathFW(), json);
+        }
+
+        public void AddNewRule(ObservableCollection<Port> rules)
+        {
+
+            List<Port> newRules;
+
+            if(File.Exists(GetFilePathFW()))
+            {
+                string jsonString = File.ReadAllText(GetFilePathFW());
+
+                newRules = JsonSerializer.Deserialize<List<Port>>(jsonString);
+            }
+            else
+            {
+                newRules = new List<Port>();
+            }
+
+            newRules.AddRange(rules);
+
+            string updatedJsongString = JsonSerializer.Serialize(rules);
+
+            File.WriteAllText(GetFilePathFW(), updatedJsongString);
+
         }
 
         //get current firewall rules
@@ -115,6 +140,30 @@ namespace Safenet_2._0.Data
                 MessageBox.Show("Failed to delete firewall rule: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
+        public void DeleteFirewallRuleFromJson(Port port)
+        {
+            try
+            {
+                ObservableCollection<Port> ports = LoadRules();
+                // Find and remove the rule from the collection
+                var ruleToRemove = ports.FirstOrDefault(p => p.Name == port.Name);
+                if (ruleToRemove != null)
+                {
+                    ports.Remove(ruleToRemove);
+                    SaveRules(ports);
+                }
+                else
+                {
+                    MessageBox.Show("Rule not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to delete firewall rule: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }  
+        }
+
 
         #endregion
 

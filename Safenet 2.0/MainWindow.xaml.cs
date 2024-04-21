@@ -21,7 +21,6 @@ namespace Safenet_2._0
         private DataAccess _dal;
 
         //to check if a user is typing in the searchbar
-        
 
         //connecting to viewmodel
         private MainViewModel viewModel;
@@ -168,8 +167,14 @@ namespace Safenet_2._0
         private void DeleteFirewallRule_Click(object sender, RoutedEventArgs e)
         {
             // delete function -> Only deleting in the json because.. of safety reasons > incase of real develeopment it would delete a rule in your firewall || function exists in DAL.
-
-
+            if (viewModel.SelectedPort != null)
+            {
+                _dal.DeleteFirewallRuleFromJson(viewModel.SelectedPort);
+            }
+            else
+            {
+                MessageBox.Show("Please select a rule to delete.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
 
         }
 
@@ -196,6 +201,12 @@ namespace Safenet_2._0
         {
             string searchText = searchTextBox.Text.ToLower();
             viewModel.FilterTips(searchText);
+        }
+
+        private void FWRulesGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Update selected item property
+            viewModel.SelectedPort = (Port)FWRulesGrid.SelectedItem;
         }
 
 
